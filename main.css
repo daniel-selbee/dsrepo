@@ -5,9 +5,15 @@ body {
 }
 
 /* -------------------------- Navigation Bar ------------------------- */
-
+nav {
+	text decoration: none;
+	
+}
 
 /*-------------------------- General Paragraph Format ----------------*/
+p {
+	font-family: 'Roboto Condensed', Verdana sans-serif;
+}
 
 /*------------------------- Heading Formatting ----------------------*/
 
