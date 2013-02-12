@@ -1,0 +1,17 @@
+/* --------------------------- General Body Formatting ------------------- */
+body {
+	
+	
+}
+
+/* -------------------------- Navigation Bar ------------------------- */
+
+
+/*-------------------------- General Paragraph Format ----------------*/
+
+/*------------------------- Heading Formatting ----------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Share Tech Mono', Verdana sans-serif;
+	text-shadow: 2px 2px #ff0000;
+}
