@@ -1,4 +1,4 @@
-/* --------------------------- General Body Elements ------------------- */
+/* --------------------------- General Body Formatting ------------------- */
 body {
 	
 	
@@ -8,3 +8,10 @@ body {
 
 
 /*-------------------------- General Paragraph Format ----------------*/
+
+/*------------------------- Heading Formatting ----------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Share Tech Mono', Verdana sans-serif;
+	
+}
