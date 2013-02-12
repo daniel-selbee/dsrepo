@@ -26,3 +26,9 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 15px, 15px;
 	padding: 0;
 }
+
+/*------------------------ General Image Format --------------------*/
+
+img {
+	width: 50%;
+}
