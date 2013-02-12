@@ -13,6 +13,7 @@ nav {
 /*-------------------------- General Paragraph Format ----------------*/
 p {
 	font-family: 'Roboto Condensed', Verdana sans-serif;
+	width: 75%;
 }
 
 /*------------------------- Heading Formatting ----------------------*/
