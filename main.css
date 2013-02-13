@@ -5,6 +5,9 @@ body {
 }
 
 /* -------------------------- Navigation Bar ------------------------- */
+nav {
+	margin: 0 auto;
+}
 ul {
 	margin: 0 auto;
 	list-style-type: none;
