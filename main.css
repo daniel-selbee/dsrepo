@@ -31,10 +31,9 @@ a {
 	border-radius: 10px;
 }
 a:visited {
-	border-color: red;
+	border-color: black;
 }
 a:hover {
-	border-style: outset;
 	border-color: orange;
 }
 a:active {
