@@ -13,12 +13,13 @@ ul {
 	list-style: none;
 }
 
-li {
+#Resources {
 	text-decoration: none;
 	color: white;
+}
+
+li {
 	float: left;
-	display: block;
-	padding: 5px, 20px;
 	
 	a {
 		text-decoration: none;
