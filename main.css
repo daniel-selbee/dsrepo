@@ -7,7 +7,6 @@ body {
 /* -------------------------- Navigation Bar ------------------------- */
 ul {
 	margin: 0 auto;
-	text-align: center;
 	list-style-type: none;
 	overflow: hidden;
 }
@@ -61,9 +60,9 @@ h1, h2, h3, h4, h5, h6 {
 	text-shadow: 5px 5px black;
 }
 
-/*----------------------- Logo Formatting-----------------------------*/
+/*----------------------- Photo Formatting-----------------------------*/
 
-#logo {
-	
+img {
+	margin: 0 auto;
 }
 
