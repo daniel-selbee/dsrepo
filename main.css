@@ -15,15 +15,14 @@ ul {
 	overflow: hidden;
 }
 
+a {
+	text-decoration: none;
+	color: white;
 li {
 	float: left;
 	padding: 0, 0, 0, 20px;
-	
-		a {
-			text-decoration: none;
-			color: white;
-		}	
 	}
+}
 
 /*-------------------------- General Paragraph Format ----------------*/
 p {
