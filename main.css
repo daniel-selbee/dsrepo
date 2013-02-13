@@ -14,6 +14,7 @@ ul {
 ul li {
 	float: left;
 	width: 100px;
+	text-align: center
 }
 
 a {
@@ -28,7 +29,6 @@ a {
 	border-width: 5px;
 	border-color: green;
 	border-radius: 10px;
-	margin: 0 auto;
 }
 a:visited {
 	border-color: black;
