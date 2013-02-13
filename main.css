@@ -10,7 +10,14 @@ body {
 ul {
 	text-decoration: none;
 	color: white;
+	list-style: none;
+}
+
+li {
+	text-decoration: none;
+	color: white;
 	float: left;
+	
 }
 
 /*-------------------------- General Paragraph Format ----------------*/
