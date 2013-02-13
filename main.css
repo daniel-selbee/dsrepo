@@ -7,9 +7,10 @@ body {
 }
 
 /* -------------------------- Navigation Bar ------------------------- */
-nav {
-	text decoration: none;
-	
+ul {
+	text-decoration: none;
+	color: white;
+	display: block;
 }
 
 /*-------------------------- General Paragraph Format ----------------*/
