@@ -30,7 +30,7 @@ a {
 	border-style: outset;
 	border-width: 5px;
 	border-color: green;
-	border-radius: 5px;
+	border-radius: 10px;
 }
 a:hover {
 	border-style: outset;
