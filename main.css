@@ -20,12 +20,14 @@ a {
 	color: white;
 	float: left;
 	display: block;
-	padding: 20px;
+	padding: 10px;
 	margin: 10px;
 
 }
 a hover {
 	color: orange;
+	border-style: solid;
+	border-color: orange;
 }
 
 /*-------------------------- General Paragraph Format ----------------*/
