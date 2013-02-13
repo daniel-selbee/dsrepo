@@ -15,7 +15,7 @@ nav {
 /*-------------------------- General Paragraph Format ----------------*/
 p {
 	font-family: 'Roboto Condensed', Verdana sans-serif;
-	font-color: yellow;
+	color: yellow;
 	width: 75%;
 	margin: 15px, 15px;
 	padding: 0;
@@ -25,7 +25,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Share Tech Mono', Verdana sans-serif;
-	font-color: yellow;
+	color: yellow;
 	margin: 15px, 15px, 0px, 0px;
 	padding: 0px, 15px;
 }
