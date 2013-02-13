@@ -7,64 +7,11 @@ body {
 }
 
 /* -------------------------- Navigation Bar ------------------------- */
-nav {
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
 ul {
-	text-decoration: none;
-	color: white;
-	list-style: none;
-	overflow: hidden;
+	margin: 0 auto;
+	width: 50%;
 }
-
-
-a {
-	display: block;
-	font-size: 1em;
-	text-decoration: none;
-	color: white;
-	float: left;
-	padding: 10px;
-	border-style: outset;
-	border-color: white;
-	border-width: 5px;
 	
-}
-a visited {
-	display: block;
-	font-size: 1em;
-	text-decoration: none;
-	color: white;
-	float: left;
-	padding: 10px;
-	border-style: outset;
-	border-color: white;
-	border-width: 5px;
-}
-a hover {
-	display: block;
-	font-size: 1em;
-	text-decoration: none;
-	color: orange;
-	float: left;
-	padding: 10px;
-	border-style: outset;
-	border-color: orange;
-	border-width: 5px;
-}
-a active {
-	display: block;
-	font-size: 1em;
-	text-decoration: none;
-	color: black;
-	float: left;
-	padding: 10px;
-	border-style: outset;
-	border-color: black;
-	border-width: 5px;
-}
 
 /*-------------------------- General Paragraph Format ----------------*/
 p {
@@ -87,7 +34,6 @@ h1, h2, h3, h4, h5, h6 {
 /*----------------------- Logo Formatting-----------------------------*/
 
 #logo {
-	display: inline;
-	margin: 0 auto;
+	
 }
 
