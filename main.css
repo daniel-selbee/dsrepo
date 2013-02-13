@@ -24,10 +24,14 @@ a {
 	margin: 10px;
 
 }
+a visited {
+}
 a hover {
 	color: orange;
 	border-style: solid;
 	border-color: orange;
+}
+a active {
 }
 
 /*-------------------------- General Paragraph Format ----------------*/
