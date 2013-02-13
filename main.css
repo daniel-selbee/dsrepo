@@ -17,6 +17,7 @@ li {
 	text-decoration: none;
 	color: white;
 	float: left;
+	display: block;
 	
 }
 
