@@ -9,7 +9,6 @@ body {
 /* -------------------------- Navigation Bar ------------------------- */
 ul {
 	margin: 0 auto;
-	background: red;
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
@@ -29,7 +28,11 @@ a {
 	line-height: 30px;
 	text-align: center;
 }
-
+a:hover {
+	border-style: outset;
+	border-width: 5px;
+	border-color: orange;
+}
 
 	
 
