@@ -19,8 +19,9 @@ a {
 	text-decoration: none;
 	color: white;
 	float: left;
-li {
+	display: block;
 	padding: 0, 0, 0, 20px;
+li {
 	}
 }
 
