@@ -21,7 +21,6 @@ a {
 	color: white;
 	float: left;
 	padding: 10px;
-	margin: 10px;
 	border-style: outset;
 	border-color: white;
 	border-width: 5px;
@@ -34,7 +33,6 @@ a visited {
 	color: white;
 	float: left;
 	padding: 10px;
-	margin: 10px;
 	border-style: outset;
 	border-color: white;
 	border-width: 5px;
@@ -46,7 +44,6 @@ a hover {
 	color: orange;
 	float: left;
 	padding: 10px;
-	margin: 10px;
 	border-style: outset;
 	border-color: orange;
 	border-width: 5px;
@@ -58,7 +55,6 @@ a active {
 	color: black;
 	float: left;
 	padding: 10px;
-	margin: 10px;
 	border-style: outset;
 	border-color: black;
 	border-width: 5px;
