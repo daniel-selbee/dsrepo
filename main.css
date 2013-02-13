@@ -27,6 +27,9 @@ a {
 	height: 30px;
 	line-height: 30px;
 	text-align: center;
+	border-style: outset;
+	border-width: 5px;
+	border-color: green;
 }
 a:hover {
 	border-style: outset;
