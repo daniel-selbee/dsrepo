@@ -13,13 +13,9 @@ ul {
 	list-style: none;
 }
 
-#Resources {
-	text-decoration: none;
-	color: white;
-}
-
 li {
 	float: left;
+	margin: 0, 0, 0, 20px;
 	
 	a {
 		text-decoration: none;
