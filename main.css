@@ -30,10 +30,15 @@ a {
 	border-color: green;
 	border-radius: 10px;
 }
+a:visited {
+	border-color: red;
+}
 a:hover {
 	border-style: outset;
-	border-width: 5px;
 	border-color: orange;
+}
+a:active {
+	border-color: black;
 }
 
 	
