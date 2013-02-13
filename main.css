@@ -7,12 +7,17 @@ body {
 }
 
 /* -------------------------- Navigation Bar ------------------------- */
-ul {
-
+nav {
+	text-decoration: none;
+	color: white;
+	list-style: none;
+	margin: 0, 5px, 0, 0 ;
+	overflow: hidden;
+}
 
 a {
 	display: block;
-	font-size: 2.5em;
+	font-size: 1em;
 	text-decoration: none;
 	color: white;
 	float: left;
@@ -25,7 +30,7 @@ a {
 }
 a visited {
 	display: block;
-	font-size: 2.5em;
+	font-size: 1em;
 	text-decoration: none;
 	color: white;
 	float: left;
@@ -37,7 +42,7 @@ a visited {
 }
 a hover {
 	display: block;
-	font-size: 2.5em;
+	font-size: 1em;
 	text-decoration: none;
 	color: orange;
 	float: left;
@@ -49,7 +54,7 @@ a hover {
 }
 a active {
 	display: block;
-	font-size: 2.5em;
+	font-size: 1em;
 	text-decoration: none;
 	color: black;
 	float: left;
@@ -58,7 +63,6 @@ a active {
 	border-style: outset;
 	border-color: black;
 	border-width: 5px;
-}
 }
 
 /*-------------------------- General Paragraph Format ----------------*/
