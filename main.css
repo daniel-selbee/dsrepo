@@ -22,20 +22,43 @@ a {
 	float: left;
 	padding: 10px;
 	margin: 10px;
-	border-style: solid;
+	border-style: outset;
 	border-color: white;
 	border-width: 5px;
 	
 }
 a visited {
+	display: block;
+	text-decoration: none;
+	color: white;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	border-style: outset;
+	border-color: white;
+	border-width: 5px;
 }
 a hover {
+	display: block;
+	text-decoration: none;
 	color: orange;
-	border-style: solid;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	border-style: outset;
 	border-color: orange;
 	border-width: 5px;
 }
 a active {
+	display: block;
+	text-decoration: none;
+	color: black;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	border-style: outset;
+	border-color: black;
+	border-width: 5px;
 }
 
 /*-------------------------- General Paragraph Format ----------------*/
