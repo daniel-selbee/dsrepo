@@ -1,7 +1,7 @@
 /* --------------------------- General Body Formatting ------------------- */
 body {
 	background: 513c3c;
-	/*background: image 'http://sphotos-b.ak.fbcdn.net/hphotos-ak-prn1/644272_105612249622988_1986388227_n.jpg' */
+	background-image: url('http://sphotos-b.ak.fbcdn.net/hphotos-ak-prn1/644272_105612249622988_1986388227_n.jpg')
 	
 	
 }
