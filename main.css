@@ -58,8 +58,11 @@ p{
 /*------------------------- Heading Formatting ----------------------*/
 
 h1, h2, h3, h4, h5, h6{
+<<<<<<< HEAD
 	background: red;
 	width: 800px;
+=======
+>>>>>>> parent of d192963... attempt to fix sidebar
 	font-family: 'Share Tech Mono' Verdana sans-serif;
 	color: white;
 	margin:  10px;
