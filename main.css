@@ -2,7 +2,8 @@
 body{
 	background: 513c3c;
 	background-image: url('https://sphotos-b.xx.fbcdn.net/hphotos-prn1/543645_105693576281522_1252487849_n.jpg');
-	margin: 0;	
+	margin: 0 auto;
+	width: 1100px;	
 }
 
 /* -------------------------- Navigation Bar ------------------------- */
