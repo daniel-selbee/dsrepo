@@ -73,7 +73,6 @@ h1, h2, h3, h4, h5, h6{
 /*------------------------ image formatting --------------------------*/
 
 .photo{
-	border: 5px outset black;
 	margin-top: 15px;
 	padding: 5px;
 }
