@@ -58,9 +58,8 @@ p {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Share Tech Mono' Verdana sans-serif;
 	color: white;
-	text-align: center;
-	margin: 0;
-	padding: 5px 10px;
+	margin: 0 50px;
+	padding: 0;
 	text-shadow: 5px 5px black;
 }
 
