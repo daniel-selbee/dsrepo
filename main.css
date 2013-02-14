@@ -6,19 +6,19 @@ body {
 }
 
 /* -------------------------- Navigation Bar ------------------------- */
-
-ul {
+nav {
+	ul {
 	margin: 0 auto;
 	list-style-type: none;
 	overflow: hidden;
-}
+	}
 
-ul li {
-	float: left;
-	width: 100px;
-}
+		ul li {
+		float: left;
+		width: 100px;
+		}
  /* only affects nav block */
-a {
+	a {
 	text-decoration: none;
 	color: white;
 	background: gray;
@@ -31,18 +31,18 @@ a {
 	border-color: green;
 	border-radius: 10px;
 	
-}
-a:visited {
+	}
+	a:visited {
 	border-color: black;
-}
-a:hover {
+	}
+	a:hover {
 	border-color: orange;
-}
-a:active {
+	}
+	a:active {
 	border-color: black;
-}
+	}
 
-	
+}	
 
 /*-------------------------- General Paragraph Format ----------------*/
 p {
