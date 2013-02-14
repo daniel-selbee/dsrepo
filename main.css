@@ -91,6 +91,8 @@ ol.gallery{
 }
 ol.gallery li{
 	float: left;
+	width: auto;
+	height: auto;
 }
 ol.gallery a{
 }
