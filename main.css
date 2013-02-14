@@ -100,10 +100,11 @@ ol.gallery li a{
 footer{
 	height: 100px;
 	background: gray;
-	font-family: Verdana;
 	overflow: hidden;
-	text-align: center;
 }
+footer p{
+	font-family: Verdana;
+	text-align: center;
 
 /*-------------------------- CTA Button --------------------------------*/
 
