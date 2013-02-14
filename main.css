@@ -152,7 +152,7 @@ aside ol {
 	list-style-type: none;
 }
 aside ol li {
-	text-align: right;
+	text-align: center;
 }
 
 aside ol li a{
@@ -161,11 +161,16 @@ aside ol li a{
 	background: -webkit-linear-gradient(top, silver, gray);
 	display: block;
 	margin: 0 auto;
+	border: 5px outset green;
 	
 }
 
 aside ol li a:visited {
+	border: 5px outset black;
+}
 
+aside ol li a:hover {
+	border: outset orange;
 }
 
 
