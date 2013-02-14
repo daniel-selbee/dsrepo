@@ -105,12 +105,12 @@ footer{
 footer p{
 	font-family: Verdana;
 	margin; 0 auto;
+	padding-top: 10px;
 }
 
 /*-------------------------- CTA Button --------------------------------*/
 
 .cta{
-	background: purple
 }
 
 
