@@ -64,9 +64,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /*----------------------- Photo Formatting-----------------------------*/
 
-#logo img{
-	display: inline;
-	margin: 0 auto;
+#logo img {
+	margin: 0 50px;
 	
 }
 
