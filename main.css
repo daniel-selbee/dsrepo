@@ -1,5 +1,5 @@
 /* --------------------------- General Body Formatting ------------------- */
-body {
+body{
 	background: 513c3c;
 	background-image: url('https://sphotos-b.xx.fbcdn.net/hphotos-prn1/543645_105693576281522_1252487849_n.jpg');
 	margin: 0;	
@@ -7,18 +7,18 @@ body {
 
 /* -------------------------- Navigation Bar ------------------------- */
 
-ul {
+ul{
 margin: 0 auto;
 list-style-type: none;
 overflow: hidden;
 }
 
-ul li {
+ul li{
 float: left;
 width: 100px;
 }
  /* only affects nav block */
-a {
+a{
 text-decoration: none;
 color: white;
 background: gray;
@@ -31,19 +31,19 @@ border-width: 5px;
 border-color: green;
 border-radius: 10px;	
 }
-a:visited {
+a:visited{
 border-color: black;
 }
-a:hover {
+a:hover{
 border-color: orange;
 }
-a:active {
+a:active{
 border-color: black;
 }
 
 
 /*-------------------------- General Paragraph Format ----------------*/
-p {
+p{
 	font-family: 'Roboto Condensed' Verdana sans-serif;
 	width: 50%;
 	color: white;
@@ -54,7 +54,7 @@ p {
 
 /*------------------------- Heading Formatting ----------------------*/
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6{
 	font-family: 'Share Tech Mono' Verdana sans-serif;
 	color: white;
 	margin: 0 50px;
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*----------------------- logo Formatting-----------------------------*/
 
-#logo img {
+#logo img{
 	margin: 0 50px;
 	padding-bottom: 20px;
 	
@@ -72,14 +72,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /*------------------------ image formatting --------------------------*/
 
-#photos img {
+#photos img{
 	margin: 0 50px;
 	padding-bottom: 20px;
 }
 	
 /*------------------------- Gallery Formatting------------------------*/
 
-ol .gallery {
+ol .gallery{
 	list-style-type: none;
 	border: 5px outset green;
 	overflow: hidden;
@@ -90,7 +90,7 @@ li {
 
 /*--------------------------- Footer Formatting -------------------------*/
 
-footer {
+footer{
 	height: 50px;
 	background: gray;
 	font-family: Verdana;
@@ -99,6 +99,8 @@ footer {
 
 /*-------------------------- CTA Button --------------------------------*/
 
-
+.cta{
+	background: purple
+}
 
 
