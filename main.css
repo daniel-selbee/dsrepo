@@ -89,7 +89,7 @@ li {
 
 /*--------------------------- Footer Formatting -------------------------*/
 
-footer {
+footer p {
 	background: gray;
 	font-family: Verdana;
 }
