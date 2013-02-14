@@ -16,7 +16,6 @@ overflow: hidden;
 ul.nav li{
 float: left;
 width: 100px;
-margin-bottom: 20px;
 }
  /* only affects nav block */
 ul.nav li a{
@@ -73,9 +72,9 @@ h1, h2, h3, h4, h5, h6{
 
 /*------------------------ image formatting --------------------------*/
 
-#photos img{
+img.photo{
 	margin: 0 50px;
-	padding-bottom: 20px;
+	padding: 20px;
 }
 	
 /*------------------------- Gallery Formatting------------------------*/
