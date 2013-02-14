@@ -7,18 +7,18 @@ body{
 
 /* -------------------------- Navigation Bar ------------------------- */
 
-ul{
+ul.nav{
 margin: 0 auto;
 list-style-type: none;
 overflow: hidden;
 }
 
-ul li{
+ul.nav li{
 float: left;
 width: 100px;
 }
  /* only affects nav block */
-a{
+ul.nav li a{
 text-decoration: none;
 color: white;
 background: gray;
@@ -31,13 +31,13 @@ border-width: 5px;
 border-color: green;
 border-radius: 10px;	
 }
-a:visited{
+ul.nav li a:visited{
 border-color: black;
 }
-a:hover{
+ul.nav li a:hover{
 border-color: orange;
 }
-a:active{
+ul.nav li a:active{
 border-color: black;
 }
 
