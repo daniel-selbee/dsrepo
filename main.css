@@ -50,7 +50,7 @@ p {
 	margin: 0 50px;
 	padding-bottom: 15px;
 }
-p: first-line: indent;
+
 
 /*------------------------- Heading Formatting ----------------------*/
 
@@ -78,11 +78,9 @@ h1, h2, h3, h4, h5, h6 {
 	
 /*------------------------- Gallery Formatting------------------------*/
 
-#gallery
+ol #gallery li{
 	float: left;
-	border-style: outset;
-	border-color: green;
-	border-width: 5px;
+}
 	
 
 
