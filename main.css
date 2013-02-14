@@ -129,6 +129,7 @@ height: 30px;
 width: 500px;
 line-height: 30px;
 text-align: center;
+text-shadow: none;
 border-style: outset;
 border-width: 5px;
 border-color: green;
@@ -189,7 +190,6 @@ aside ol li a:hover {
 
 section.monsters {
 	-webkit-column-count: 2;
-	overflow: visible;
 }
 
 
