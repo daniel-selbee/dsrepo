@@ -89,7 +89,8 @@ li {
 
 /*--------------------------- Footer Formatting -------------------------*/
 
-footer p {
+footer {
+	height: 50px;
 	background: gray;
 	font-family: Verdana;
 	overflow: hidden;
