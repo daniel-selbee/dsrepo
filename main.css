@@ -106,8 +106,7 @@ footer p{
 	font-family: Verdana;
 	text-align: center;
 	background: red;
-	width: 100%;
-	position: middle middle;
+	margin; 0 auto;
 }
 
 /*-------------------------- CTA Button --------------------------------*/
