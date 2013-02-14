@@ -92,6 +92,7 @@ li {
 footer p {
 	background: gray;
 	font-family: Verdana;
+	overflow: hidden;
 }
 
 
