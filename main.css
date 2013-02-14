@@ -89,7 +89,7 @@ ol.gallery{
 }
 ol.gallery li{
 	float: left;
-	margin-left; 10px;
+	margin: 10px;
 }
 ol.gallery li a{
 	display: block;
