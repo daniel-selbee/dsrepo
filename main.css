@@ -85,7 +85,6 @@ ol.gallery{
 	margin: 20px auto;
 	padding: 5px;
 	height: 500px;
-	width: 500px;
 }
 ol.gallery li{
 	float: left;
@@ -101,7 +100,8 @@ ol.gallery li a{
 
 footer{
 	height: 50px;
-	background: gray;
+	background: -webkit-gradient(linear, top, bottom,
+	from(#eee), to(#fff), color-stop(0.5, #fff), color-stop(0.5, #eee));
 	overflow: hidden;
 }
 footer p{
