@@ -101,7 +101,7 @@ ol.gallery li a{
 
 footer{
 	height: 50px;
-	background: -webkit-gradient(linear top, #38b638, #184f20) ;
+	background: -webkit-linear-gradient(top, #38b638, #184f20) ;
 	overflow: hidden;
 }
 footer p{
