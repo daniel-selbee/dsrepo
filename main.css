@@ -100,8 +100,7 @@ ol.gallery li a{
 
 footer{
 	height: 50px;
-	-webkit-gradient-linear, top, bottom,
-	from #eee, to #fff, color-stop 0.5, #fff, color-stop 0.5, #eee;
+	background: dark gray;
 	overflow: hidden;
 }
 footer p{
