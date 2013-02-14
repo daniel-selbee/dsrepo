@@ -9,7 +9,6 @@ body{
 /* -------------------------- Navigation Bar ------------------------- */
 
 ul.nav{
-background: red;
 margin: 0 auto;
 list-style-type: none;
 overflow: hidden;
@@ -47,7 +46,6 @@ border-color: black;
 
 /*-------------------------- General Paragraph Format ----------------*/
 p{
-	background: red;
 	font-family: 'Roboto Condensed' Verdana sans-serif;
 	width: 800px;
 	color: white;
@@ -59,11 +57,7 @@ p{
 /*------------------------- Heading Formatting ----------------------*/
 
 h1, h2, h3, h4, h5, h6{
-<<<<<<< HEAD
-	background: red;
 	width: 800px;
-=======
->>>>>>> parent of d192963... attempt to fix sidebar
 	font-family: 'Share Tech Mono' Verdana sans-serif;
 	color: white;
 	margin:  10px;
@@ -82,7 +76,6 @@ h1, h2, h3, h4, h5, h6{
 /*------------------------ image formatting --------------------------*/
 
 .photo{
-	background: red;
 	margin-top: 15px;
 	margin-left: 10px;
 	padding: 5px;
@@ -92,7 +85,6 @@ h1, h2, h3, h4, h5, h6{
 /*------------------------- Gallery Formatting (make thumbnails)------------------------*/
 
 ol.gallery{
-	background: red;
 	list-style-type: none;
 	overflow: hidden;
 	margin: 0;
@@ -157,7 +149,7 @@ border-color: black;
 aside {
 	float: right;
 	width: 200px;
-	margin-right: 100px;
+	margin-right: 10px;
 	border: 5px outset green;
 	overflow: hidden;	
 }
