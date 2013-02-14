@@ -47,7 +47,7 @@ p{
 	font-family: 'Roboto Condensed' Verdana sans-serif;
 	width: 50%;
 	color: white;
-	margin: 0 50px;
+	margin: 10px;
 	padding-bottom: 15px;
 }
 
@@ -57,7 +57,7 @@ p{
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Share Tech Mono' Verdana sans-serif;
 	color: white;
-	margin: 0 50px;
+	margin:  10px;
 	padding-bottom: 10px;
 	text-shadow: 5px 5px black;
 }
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6{
 ol.gallery{
 	list-style-type: none;
 	overflow: hidden;
-	margin: 20px auto;
+	margin: 0 auto;
 	padding: 5px;
 	height: 500px;
 }
