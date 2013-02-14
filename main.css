@@ -91,8 +91,6 @@ ol.gallery{
 }
 ol.gallery li{
 	float: left;
-	width: auto;
-	height: auto;
 }
 ol.gallery a{
 }
@@ -112,7 +110,33 @@ footer p{
 
 /*-------------------------- CTA Button --------------------------------*/
 
-.cta{
+h1.cta{
+margin: 0 auto;
+list-style-type: none;
+overflow: hidden;
 }
+h1.cta a{
+text-decoration: none;
+color: white;
+background: -webkit-linear-gradient(top, silver, gray);
+display: block;
+height: 30px;
+line-height: 30px;
+text-align: center;
+border-style: outset;
+border-width: 5px;
+border-color: green;
+border-radius: 10px;
+}
+h1.cta a:visited{
+border-color: black;
+}
+h1.cta li a:hover{
+border-color: orange;
+}
+h1.cta li a:active{
+border-color: black;
+}
+
 
 
