@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Share Tech Mono' Verdana sans-serif;
 	color: white;
 	margin: 0 50px;
-	padding: 0;
+	padding-bottom: 10px;
 	text-shadow: 5px 5px black;
 }
 
