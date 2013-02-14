@@ -86,6 +86,12 @@ ol .gallery {
 li {
 	float: left;
 }
-	
+
+/*--------------------------- Footer Formatting -------------------------*/
+
+footer {
+	background: gray;
+	font-family: Verdana;
+}
 
 
