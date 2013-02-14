@@ -30,7 +30,7 @@ a {
 	border-width: 5px;
 	border-color: green;
 	border-radius: 10px;
-	margin: 0 auto;
+	margin: 0 50px;
 }
 a:visited {
 	border-color: black;
