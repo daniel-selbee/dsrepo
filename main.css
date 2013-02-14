@@ -145,7 +145,7 @@ aside {
 	float: right;
 	width: 200px;
 	margin-right: 100px;
-	background: -webkit-linear-gradient(top, c5c198, e5e0b1);	
+	border: 5px outset green;	
 }
 aside p {
 	text-align: right;
