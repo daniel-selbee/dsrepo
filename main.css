@@ -98,10 +98,11 @@ ol.gallery li a{
 /*--------------------------- Footer Formatting -------------------------*/
 
 footer{
-	height: 50px;
+	height: 100px;
 	background: gray;
 	font-family: Verdana;
 	overflow: hidden;
+	text-align: center;
 }
 
 /*-------------------------- CTA Button --------------------------------*/
