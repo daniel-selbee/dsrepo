@@ -65,8 +65,10 @@ h1, h2, h3, h4, h5, h6{
 /*----------------------- logo Formatting-----------------------------*/
 
 #logo img{
-	margin: 0 50px;
+	margin: 10px;
 	padding-bottom: 20px;
+	background: black;
+	width: 30%;
 	
 }
 
