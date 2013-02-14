@@ -85,7 +85,8 @@ ol.gallery{
 	overflow: hidden;
 	margin: 0 auto;
 	padding: 5px;
-	height: 500px;
+	height: 300px;
+	width: 75%
 	border: 5px outset green;
 }
 ol.gallery li{
