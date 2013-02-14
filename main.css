@@ -142,8 +142,11 @@ border-color: black;
 /*-------------------------- Aside Formatting --------------------------*/
 
 aside {
-	float: right;	
+	float: right;
+	width: 200px;	
 }
-
+aside p {
+	text-align: right;
+}
 
 
