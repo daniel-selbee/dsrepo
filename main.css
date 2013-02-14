@@ -121,6 +121,7 @@ color: white;
 background: -webkit-linear-gradient(top, silver, gray);
 display: block;
 height: 30px;
+width: 20%;
 line-height: 30px;
 text-align: center;
 border-style: outset;
