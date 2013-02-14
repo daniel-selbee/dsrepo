@@ -91,6 +91,7 @@ ol.gallery li{
 	float: left;
 	margin: 10px;
 	display: block;
+	width: 25%
 }
 ol.gallery li a{
 	display: block;
