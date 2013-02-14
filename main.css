@@ -84,6 +84,8 @@ ol.gallery{
 	border: 5px outset green;
 	overflow: hidden;
 }
+ol.gallery li{
+	float: left;
 
 /*--------------------------- Footer Formatting -------------------------*/
 
