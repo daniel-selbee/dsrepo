@@ -147,6 +147,7 @@ border-color: black;
 /*-------------------------- Aside Formatting --------------------------*/
 
 aside {
+	background: -webkit-linear-gradient (top, 
 	float: right;
 	width: 200px;
 	margin-right: 10px;
@@ -183,6 +184,12 @@ aside ol li a:visited {
 
 aside ol li a:hover {
 	border: outset orange;
+}
+
+/*--------------------------------- Monster Paragraph Columns -----------------------------*/
+
+section.monsters {
+	-webkit-column-count: 3;
 }
 
 
