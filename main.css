@@ -16,6 +16,7 @@ overflow: hidden;
 ul.nav li{
 float: left;
 width: 100px;
+margin-bottom: 20px;
 }
  /* only affects nav block */
 ul.nav li a{
@@ -30,7 +31,6 @@ border-style: outset;
 border-width: 5px;
 border-color: green;
 border-radius: 10px;
-padding-bottom: 20px;	
 }
 ul.nav li a:visited{
 border-color: black;
