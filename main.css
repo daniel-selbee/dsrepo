@@ -50,6 +50,7 @@ p {
 	margin: 0 50px;
 	padding-bottom: 15px;
 }
+p: first-line: indent;
 
 /*------------------------- Heading Formatting ----------------------*/
 
