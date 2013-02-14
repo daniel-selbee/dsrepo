@@ -132,10 +132,10 @@ border-radius: 10px;
 h1.cta a:visited{
 border-color: black;
 }
-h1.cta li a:hover{
+h1.cta a:hover{
 border-color: orange;
 }
-h1.cta li a:active{
+h1.cta a:active{
 border-color: black;
 }
 
