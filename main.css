@@ -145,10 +145,11 @@ aside {
 	float: right;
 	width: 200px;
 	margin-right: 100px;
-	border: 5px outset green;	
+	border: 5px outset green;
+	overflow: hidden;	
 }
 aside p {
-	text-align: right;
+	text-align: center;
 	width: 200px;
 }
 aside ol {
