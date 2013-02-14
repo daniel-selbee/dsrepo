@@ -149,11 +149,14 @@ aside {
 }
 aside p {
 	text-align: right;
+	width: 200px;
 }
 aside ol {
 	list-style-type: none;
+	width 200px;
 }
 aside ol li {
+	width 200px;
 	text-align: center;
 }
 
