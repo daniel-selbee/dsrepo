@@ -157,6 +157,9 @@ aside ol li {
 
 aside ol li a{
 	text-decoration: none;
+	color: white;
+	background: -webkit-linear-gradient(top, silver, gray);
+	
 }
 
 
