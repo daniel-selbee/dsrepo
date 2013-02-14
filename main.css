@@ -190,9 +190,8 @@ aside ol li a:hover {
 
 section.monsters {
 	-webkit-column-count: 3;
+	overflow: visible;
 }
-section.monsters p{
-	width = auto;
-}
+
 
 
