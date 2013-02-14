@@ -148,5 +148,15 @@ aside {
 aside p {
 	text-align: right;
 }
+aside ol {
+	list-style-type: none;
+}
+aside ol li {
+	text-align: right;
+}
+
+aside ol li a{
+	text-decoration: none;
+}
 
 
