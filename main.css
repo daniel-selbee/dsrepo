@@ -45,6 +45,7 @@ border-color: black;
 /*-------------------------- General Paragraph Format ----------------*/
 p {
 	font-family: 'Roboto Condensed' Verdana sans-serif;
+	width: 50%;
 	color: white;
 	margin: 0 50px;
 	padding-bottom: 15px;
