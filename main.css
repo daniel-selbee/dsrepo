@@ -98,7 +98,7 @@ ol.gallery li{
 	border: 5px outset green;
 }
 ol.gallery a{
-
+	display: block;
 }
 
 /*--------------------------- Footer Formatting -------------------------*/
