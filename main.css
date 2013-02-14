@@ -159,7 +159,13 @@ aside ol li a{
 	text-decoration: none;
 	color: white;
 	background: -webkit-linear-gradient(top, silver, gray);
+	display: block;
+	margin: 0 auto;
 	
+}
+
+aside ol li a:visited {
+
 }
 
 
