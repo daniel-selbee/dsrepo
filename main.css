@@ -91,9 +91,6 @@ ol.gallery{
 }
 ol.gallery li{
 	float: left;
-	width: 100px;
-	height: 56.27 px;
-	overflow: hidden;
 }
 ol.gallery a{
 }
