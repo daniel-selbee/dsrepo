@@ -108,7 +108,7 @@ footer p{
 /*-------------------------- CTA Button --------------------------------*/
 
 h1.cta{
-margin: 0 auto;
+margin: 10px;
 list-style-type: none;
 overflow: hidden;
 }
