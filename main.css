@@ -92,6 +92,9 @@ ol.gallery li{
 }
 ol.gallery li a{
 	border: 5px outset green;
+	display: block;
+	height: 52px;
+	
 }
 ol.gallery li a: visited{
 	border: 5px outset black;
