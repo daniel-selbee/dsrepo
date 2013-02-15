@@ -90,7 +90,7 @@ ol.gallery li{
 ol.gallery li a{
 	border: 5px outset green;
 	display: block;
-	height: 52px;
+	height: 60px;
 	
 }
 ol.gallery li a: visited{
