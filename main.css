@@ -93,13 +93,13 @@ ol.gallery li a{
 	height: 60px;
 	
 }
-ol.gallery li a: visited{
+ol.gallery li a:visited{
 	border: 5px outset black;
 }
-ol.gallery li a: hover{
+ol.gallery li a:hover{
 	border: 5px outset orange;
 }
-ol.gallery li a: active{
+ol.gallery li a:active{
 	border: 5px outset black;
 }
 /*--------------------------- Footer Formatting -------------------------*/
