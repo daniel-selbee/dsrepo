@@ -1,6 +1,6 @@
 /* --------------------------- General Body Formatting ------------------- */
 body{
-	background: 513c3c;
+	background: #513c3c;
 	background-image: url('https://sphotos-b.xx.fbcdn.net/hphotos-prn1/543645_105693576281522_1252487849_n.jpg');
 	margin: 0 auto;
 	width: 1100px;	
@@ -111,7 +111,7 @@ footer{
 }
 footer p{
 	font-family: Verdana;
-	margin; 0 auto;
+	margin: 0 auto;
 	padding-top: 10px;
 }
 
@@ -159,10 +159,10 @@ aside p {
 }
 aside ol {
 	list-style-type: none;
-	width 200px;
+	width: 200px;
 }
 aside ol li {
-	width 200px;
+	width: 200px;
 	text-align: center;
 }
 
