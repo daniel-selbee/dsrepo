@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6{
 
 ol.gallery{
 	list-style-type: none;
-	margin: 0;
+	margin: 5px;
 	padding: 0;
 	height: 300px;
 	width: 800px;
@@ -92,8 +92,6 @@ ol.gallery li{
 }
 ol.gallery li a{
 	border: 5px outset green;
-	display: block;
-	width: 100px;
 }
 ol.gallery li a: visited{
 	border: 5px outset black;
