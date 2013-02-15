@@ -87,6 +87,7 @@ ol.gallery{
 ol.gallery li{
 	float: left;
 	width: 100px;
+	overflow: hidden;
 }
 ol.gallery li a{
 	border: 5px outset green;
