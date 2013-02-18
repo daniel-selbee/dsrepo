@@ -182,7 +182,8 @@ aside ol li a:hover {
 section.monsters {
 	-webkit-column-count: 2;
 	-moz-column-count: 2;
-	column-gap: length|1em; /* W3C suggestion */
+	column-gap: length|0.75em; /* distance between columns */
+	column-rule: balance|auto; /* evens length of columns */
 
 }
 
