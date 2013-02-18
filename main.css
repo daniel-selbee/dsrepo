@@ -206,7 +206,7 @@ section.animals {
 
 img {
 	border: 5px outset green;
-	width: 45.454545454545%; /* body is container  500/1100 */
+	width: 40%; /* body is container  500/1100 */
 	float: right;
 	
 }
