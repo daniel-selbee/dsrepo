@@ -184,6 +184,7 @@ section.monsters {
 	-moz-column-count: 2;
 	column-gap: length|0.75em; /* distance between columns */
 	column-rule: balance|auto; /* evens length of columns */
+	margin: 30px; /* further adjust in media query */
 
 }
 
@@ -194,6 +195,7 @@ section.animals {
 	-moz-column-count: 2;
 	column-gap: length|0.75em; /* distance between columns */
 	column-rule: balance|auto; /* evens length of columns */
+	margin: 30px; /* further adjust in media query */
 
 }
 
