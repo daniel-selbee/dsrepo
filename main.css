@@ -199,5 +199,12 @@ section.animals {
 
 }
 
+/*--------------------------------- Image Formatting ------------------------------- */
+
+img {
+	border: 5px outset green;
+	
+}
+
 
 
