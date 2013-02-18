@@ -35,9 +35,7 @@ border-width: 5px;
 border-color: green;
 border-radius: 10px;
 }
-ul.nav li a:visited{
-border-color: black;
-}
+
 ul.nav li a:hover{
 border-color: orange;
 }
@@ -70,7 +68,7 @@ h1, h2, h3, h4, h5, h6{
 /*----------------------- logo Formatting-----------------------------*/
 
 #logo img{
-	margin: 10px;
+	margin: 10px; /* adjust in media query */
 	
 }
 
@@ -81,12 +79,12 @@ ol.gallery{
 	list-style-type: none;
 	margin-left: 10px;
 	padding: 0;
-	width: 800px;
+	width: 72.727272727273%; /* body is container. Copy and pasted from percentage above */
 	overflow: hidden;
 }
 ol.gallery li{
 	float: left;
-	width: 110px;
+	width: 110px; /* adjust in media query */
 }
 ol.gallery li a{
 	border: 5px outset green;
@@ -107,7 +105,7 @@ ol.gallery li a:active{
 
 footer{
 	height: 50px;
-	background: -webkit-linear-gradient(top, #38b638, #184f20) ;
+	background: -webkit-linear-gradient(top, #38b638, #184f20);
 	overflow: hidden;
 }
 footer p{
@@ -136,10 +134,7 @@ border-style: outset;
 border-width: 5px;
 border-color: green;
 border-radius: 10px;
-}
-h1.cta a:visited{
-border-color: black;
-}
+} /* end initial link */
 h1.cta a:hover{
 border-color: orange;
 }
@@ -176,10 +171,6 @@ aside ol li a{
 	padding: 50px;
 	border: 5px outset green;
 	
-}
-
-aside ol li a:visited {
-	border: 5px outset black;
 }
 
 aside ol li a:hover {
