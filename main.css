@@ -18,9 +18,10 @@ width: 72.727272727273%; /* from 800px */
 
 ul.nav li{
 float: left;
-width: 12.5%; /* container 800px, nav bars 100 px. 100/800 */
+width: 100px; /* use media query to adjust for responsiveness */
+overflow: hidden; /* hides nav text */
 }
- /* only affects nav block */
+ /* only affects nav block. Adjust in media query */
 ul.nav li a{
 text-decoration: none;
 color: white;
@@ -48,9 +49,9 @@ border-color: black;
 /*-------------------------- General Paragraph Format ----------------*/
 p{
 	font-family: 'Roboto Condensed', Verdana, sans-serif;
-	width: 800px;
+	width: 72.727272727273%; /* body is the container 800px/1100px */
 	color: white;
-	margin: 10px;
+	margin: 10px; /* adjust margin and padding in media query */
 	padding-bottom: 15px;
 }
 
@@ -58,7 +59,7 @@ p{
 /*------------------------- Heading Formatting ----------------------*/
 
 h1, h2, h3, h4, h5, h6{
-	width: 800px;
+	width: 72.727272727273%; /* same as paragraph container */
 	font-family: 'Share Tech Mono', Verdana, sans-serif;
 	color: white;
 	margin:  10px;
