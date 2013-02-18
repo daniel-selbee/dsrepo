@@ -187,5 +187,15 @@ section.monsters {
 
 }
 
+/*--------------------------------- Animal Section Columns ------------------------------*/
+
+section.animals {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-gap: length|0.75em; /* distance between columns */
+	column-rule: balance|auto; /* evens length of columns */
+
+}
+
 
 
