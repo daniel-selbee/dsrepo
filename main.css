@@ -185,6 +185,7 @@ section.monsters {
 	-webkit-column-rule:4px outset green; /* Safari and Chrome */
 	-moz-column-rule:4px outset green; /* Firefox */
 	column-rule:4px outset #ff00ff; /* should bring the column separator away from text */
+	column-fill: balance|auto; /* attempt to keep skeleton paragraph together */
 
 }
 
