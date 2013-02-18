@@ -18,7 +18,7 @@ width: 72.727272727273%; /* from 800px */
 
 ul.nav li{
 float: left;
-width: 100px;
+width: 12.5%; /* container 800px, nav bars 100 px. 100/800 */
 }
  /* only affects nav block */
 ul.nav li a{
