@@ -47,7 +47,7 @@ border-color: black;
 /*-------------------------- General Paragraph Format ----------------*/
 p{
 	font-family: 'Roboto Condensed', Verdana, sans-serif;
-	width: 50%; /* body is the container 800px/1100px */
+	width: 40%; /* body is the container 800px/1100px */
 	color: white;
 	margin: 10px; /* adjust margin and padding in media query */
 	padding-bottom: 15px;
@@ -58,7 +58,7 @@ p{
 /*------------------------- Heading Formatting ----------------------*/
 
 h1, h2, h3, h4, h5, h6{
-	width: 50%; /* same as paragraph container */
+	width: 40%; /* same as paragraph container */
 	font-family: 'Share Tech Mono', Verdana, sans-serif;
 	color: white;
 	margin:  10px;
