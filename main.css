@@ -3,7 +3,7 @@ body{
 	background: #513c3c;
 	background-image: url('https://sphotos-b.xx.fbcdn.net/hphotos-prn1/543645_105693576281522_1252487849_n.jpg');
 	margin: 0 auto;
-	width: 90%;	
+	width: 90%;	/* from 1100px to 90% */
 }
 
 /* -------------------------- Navigation Bar ------------------------- */
@@ -13,7 +13,7 @@ margin-left: 10px;
 padding: 0;
 list-style-type: none;
 overflow: hidden;
-width: 800px;
+width: 72.727272727273%; /* from 800px */
 }
 
 ul.nav li{
@@ -189,6 +189,10 @@ aside ol li a:hover {
 
 section.monsters {
 	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	-webkit-column-rule:4px outset #ff00ff; /* Safari and Chrome */
+	-moz-column-rule:4px outset #ff00ff; /* Firefox */
+
 }
 
 
