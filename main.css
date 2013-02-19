@@ -185,6 +185,9 @@ aside ol li a:hover {
 
 /*--------------------------------- Monster Paragraph Columns -----------------------------*/
 
+#Monsters {
+	clear: both;
+}
 section.monsters {
 	-webkit-column-count: 2;
 	-moz-column-count: 2;
