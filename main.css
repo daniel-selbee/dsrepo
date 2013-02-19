@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5, h6{
 #logo img{
 	margin: 10px; /* adjust in media query */
 	border: none;
+	float: none;
 	
 }
 
