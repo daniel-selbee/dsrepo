@@ -57,12 +57,13 @@ p{
 /*------------------------- Heading Formatting ----------------------*/
 
 h1, h2, h3, h4, h5, h6{
-	width: 40%; /* same as paragraph container */
+	width: 72.727272727273%; /* same as paragraph container */
 	font-family: 'Share Tech Mono', Verdana, sans-serif;
 	color: white;
 	margin:  10px;
 	padding-bottom: 10px;
 	text-shadow: 5px 5px 5px black;
+	clear: both;
 }
 
 /*----------------------- logo Formatting-----------------------------*/
