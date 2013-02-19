@@ -160,14 +160,13 @@ border-color: black;
 
 aside {
 	float: right;
-	width: 200px;
-	margin-right: 10px;	
+	width: 200px;	
 }
 aside p.sidebar {
 	text-align: right;
 	width: 200px;
-	margin-right: none;
-	padding: none;
+	margin-right: 0;
+	padding: 0;
 }
 aside ol {
 	list-style-type: none;
