@@ -159,7 +159,7 @@ aside {
 	float: right;
 	width: 200px;	
 }
-aside p.sidebar {
+p.sidebar {
 	text-align: right;
 	width: 200px;
 	margin-right: 0;
