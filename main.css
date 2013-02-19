@@ -210,7 +210,7 @@ img {
 	margin-bottom: 10px;
 	width: 40%; /* body is container  500/1100 */
 	float: right;
-	clear: both; /* don't want images side by side by default */
+	clear: right; /* don't want images side by side by default */
 	
 }
 
