@@ -49,8 +49,9 @@ p{
 	font-family: 'Roboto Condensed', Verdana, sans-serif;
 	width: 40%; /* body is the container 800px/1100px */
 	color: white;
-	margin: 10px; /* adjust margin and padding in media query */
+	margin-bottom: 10px; /* adjust margin and padding in media query */
 	padding-bottom: 15px;
+	border: 5px dotted green; /* test for floating */
 }
 
 
@@ -63,6 +64,7 @@ h1, h2, h3, h4, h5, h6{
 	margin:  10px;
 	padding-bottom: 10px;
 	text-shadow: 5px 5px 5px black;
+	border: 5px dotted green; /* test for floating */
 	clear: both;
 }
 
@@ -112,7 +114,7 @@ footer{
 	overflow: hidden;
 }
 footer p{
-	font-family: Verdana;
+	font-family: 'Share Tech Mono', Verdana, sans-serif;
 	margin: 0 auto;
 	padding-top: 10px;
 }
@@ -133,9 +135,7 @@ height: 30px;
 width: 45.454545454545%; /* body is container 500/1100 */
 line-height: 30px;
 text-align: center;
-border-style: outset;
-border-width: 5px;
-border-color: green;
+border: 5px outset green;
 border-radius: 10px;
 } /* end initial link */
 h1.cta a:hover{
@@ -188,7 +188,7 @@ section.monsters {
 	-moz-column-count: 2;
 	column-gap: length|0.75em; /* distance between columns */
 	column-rule: balance|auto; /* evens length of columns */
-	margin: 30px; /* further adjust in media query */
+	margin: 30, 0px; /* further adjust in media query */
 
 }
 
@@ -199,7 +199,7 @@ section.animals {
 	-moz-column-count: 2;
 	column-gap: length|0.75em; /* distance between columns */
 	column-rule: balance|auto; /* evens length of columns */
-	margin: 30px; /* further adjust in media query */
+	margin: 30px, 0; /* further adjust in media query */
 
 }
 
