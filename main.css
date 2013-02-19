@@ -163,7 +163,7 @@ aside {
 	width: 200px;
 	margin-right: 10px;	
 }
-aside p {
+aside p.sidebar {
 	text-align: right;
 	width: 200px;
 	margin-right: none;
