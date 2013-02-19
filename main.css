@@ -50,6 +50,7 @@ p{
 	width: 40%; /* body is the container 800px/1100px */
 	color: white;
 	margin-bottom: 10px; /* adjust margin and padding in media query */
+	margin-left: 10px;
 	padding-bottom: 15px;
 	border: 5px dotted green; /* test for floating */
 }
