@@ -596,7 +596,7 @@ footer p{
 		clear: both;
 		}
 		section.animals {
-		columns: none;
+		columns: 0;
 		}
 		section.animals img{
 		width: 90%;
