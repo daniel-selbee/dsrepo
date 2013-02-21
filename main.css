@@ -176,11 +176,13 @@ ol.gallery{ /* Unordered list class */
 ol.gallery li{
 	float: left;
 	width: 30%; /* ol is container */
+	height: 90%;
+	border: none;
 }
 ol.gallery li a{
 	border: 5px outset green;
 	display: block;
-	height: 60px;
+	height: 100%;
 	
 }
 ol.gallery li a:visited{
