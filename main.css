@@ -308,38 +308,38 @@ footer p{
 		display: none;
 		}
 		p.introParagraph{
-		float: left;
-		width: 50%;
+		float: none;
+		width: 60%;
 		margin-left: 1em;
 		}
 		p.resourcesParagraph{ 
-		float: left;
-		width: 50%;
+		float: none;
+		width: 60%;
 		margin-left: 1em;
 		}
 		p.craftingParagraph{
-		float: left;
-		width: 50%;
+		float: none;
+		width: 60%;
 		margin-left: 1em;
 		}
 		p.toolsParagraph{
-		float: left;
-		width: 50%;
+		float: none;
+		width: 60%;
 		margin-left: 1em;
 		}
 		p.buildingStructuresParagraph{
-		float: left;
-		width: 50%;
+		float: none;
+		width: 60%;
 		margin-left: 1em;
 		}
 		p.gatheringFoodParagraph{
-		float: left;
-		width: 50%;
+		float: none;
+		width: 60%;
 		margin-left: 1em;
 		}
 		p.naturalStructuresParagraph{
-		float: left;
-		width: 50%;
+		float: none;
+		width: 60%;
 		margin-left: 1em;
 		}
 		img.introImage{
