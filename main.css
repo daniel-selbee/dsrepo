@@ -56,6 +56,10 @@ section.intro {
 	float: left;
 }
 
+section.intro img{
+	width: 35%;
+}
+
 /*------------------------- Heading Formatting ----------------------*/
 
 h1, h2{
