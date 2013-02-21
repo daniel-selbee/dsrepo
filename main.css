@@ -359,6 +359,9 @@ footer p{
 		float: left;
 		margin:  0 1em;
 		}
+		h1 {
+			clear: right;
+		}
 		
 	}
 	
