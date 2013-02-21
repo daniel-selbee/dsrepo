@@ -332,6 +332,7 @@ footer p{
 		width: 50%;
 		float: left;
 		margin:  0 1em;
+		clear: none;
 		}
 		img.craftingImage{
 		width: 50%;
@@ -358,6 +359,7 @@ footer p{
 		float: left;
 		margin:  0 1em;
 		}
+		
 	}
 	
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
