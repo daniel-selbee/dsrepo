@@ -107,15 +107,15 @@ p{
 
 aside {
 	float: right;
-	width: 200px;	
+	width: 18.181818181818%;	/* body is container 200/1100 */
 }
 
 aside ol {
 	list-style-type: none;
-	width: 200px;
+	width: 18.181818181818%;
 }
 aside ol li {
-	width: 200px;
+	width: 18.181818181818%;
 	text-align: center;
 }
 
