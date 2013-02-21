@@ -166,7 +166,7 @@ img.animals {
 	
 /*------------------------- Gallery Formatting------------------------*/
 
-ol.gallery{
+ol.gallery{ /* Unordered list class */
 	list-style-type: none;
 	margin-left: 10px;
 	padding: 0;
@@ -175,7 +175,7 @@ ol.gallery{
 }
 ol.gallery li{
 	float: left;
-	width: 10%; /* body is container 110/1100*/
+	width: 100%; /* ol is container/
 }
 ol.gallery li a{
 	border: 5px outset green;
