@@ -385,8 +385,9 @@ footer p{
 		h1 {
 			clear: none;
 		}
-		
-	}
+		ol.gallery li a{
+		width: 12.5%; /* as ol length decreases, so does the link size */
+		}
 	
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
