@@ -308,56 +308,76 @@ footer p{
 		display: none;
 		}
 		p.introParagraph{
-		float: none;
+		float: left;
+		width: 50%;
+		margin-left: 1em;
 		}
 		p.resourcesParagraph{ 
-		float: none;
+		float: left;
+		width: 50%;
+		margin-left: 1em;
 		}
 		p.craftingParagraph{
-		float: none;
+		float: left;
+		width: 50%;
+		margin-left: 1em;
 		}
 		p.toolsParagraph{
-		float: none;
+		float: left;
+		width: 50%;
+		margin-left: 1em;
 		}
 		p.buildingStructuresParagraph{
-		float: none;
+		float: left;
+		width: 50%;
+		margin-left: 1em;
 		}
 		p.gatheringFoodParagraph{
-		float: none;
+		float: left;
+		width: 50%;
+		margin-left: 1em;
 		}
 		p.naturalStructuresParagraph{
-		float: none;
+		float: left;
+		width: 50%;
+		margin-left: 1em;
 		}
+		img.introImage{
+		width: 50%;
+		margin-left: 1em;
+		float: right;
+		clear: none;
+}
 		img.resourcesImage{ 
 		width: 50%;
-		float: left;
-		margin-left: 1em;
+		float: right;
+		margin-right: 1em;
 		clear: none;
 		}
 		img.craftingImage{
 		width: 50%;
-		float: left;
-		margin-left: 1em;
+		float: right;
+		margin-right: 1em;
 		}
 		img.toolsImage{
 		width: 50%;
-		float: left;
-		margin-left: 1em;
+		float: right;
+		margin-right: 1em;
 		}
 		img.buildingStructuresImage{
 		width: 50%;
-		float: left;
-		margin-left: 1em;
+		float: right;
+		margin-right: 1em;
 		}
 		img.gatheringFoodImage{
 		width: 50%;
-		float: left;
-		margin-left: 1em;
+		float: right;
+		margin-right: 1em;
 		}
 		img.naturalStructuresImage{
 		width: 50%;
-		float: left;
-		margin-left: 1em;
+		float: right;
+		margin-right: 1em;
 		}
 		h1 {
 			clear: none;
