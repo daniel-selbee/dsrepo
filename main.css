@@ -483,7 +483,7 @@ footer p{
 			clear: none;
 		}
 		ol.gallery li a{
-		width: 12.5%; /* as ol length decreases, so does the link size */
+		width: 12.75%; /* as ol length decreases, so does the link size */
 		}
 		p.closing{
 		width: 75%;
