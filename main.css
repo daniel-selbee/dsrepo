@@ -9,7 +9,7 @@ body{
 /*----------------------- logo Formatting-----------------------------*/
 
 #logo img{
-	margin: 10px; /* adjust in media query */
+	margin: 0.625em; /* adjust in media query */
 	border: none;
 	float: none;
 	
@@ -18,7 +18,7 @@ body{
 /* -------------------------- Navigation Bar ------------------------- */
 
 ul.nav{
-margin-left: 10px;
+margin-left: 0.625em;
 padding: 0;
 list-style-type: none;
 overflow: hidden;
@@ -87,7 +87,7 @@ aside {
 	float: right;
 	width: 200px;	
 }
-p.sidebar {
+aside.sidebar p{
 	text-align: right;
 	width: 200px;
 	margin-right: 0;
