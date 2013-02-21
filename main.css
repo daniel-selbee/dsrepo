@@ -203,7 +203,7 @@ section.monsters {
 	float: none;
 
 }
-#monsterImages{
+img #monsterImages{
 	float: none;
 }
 
@@ -212,13 +212,13 @@ section.monsters {
 section.animals {
 	-webkit-column-count: 2;
 	-moz-column-count: 2;
-	column-gap: length|0.75em; /* distance between columns */
+	column-gap: length|0.75em; /* distance between columns (-.25 from W3C recommendation) */
 	column-rule: balance|auto; /* evens length of columns */
 	margin: 30px, 0; /* further adjust in media query */
 	float: none;
 
 }
-#animalImages{
+img #animalImages{
 	float: none;
 }
 
