@@ -182,7 +182,7 @@ img.gatheringFoodImage{
 section.monsters {
 	-webkit-column-count: 2;
 	-moz-column-count: 2;
-	column-gap: length|0.75em; /* distance between columns */
+	column-gap: 0.75em; /* distance between columns */
 	column-rule: balance|auto; /* evens length of columns */
 	margin: 1.875em, 0; /* further adjust in media query */
 	float: none;
