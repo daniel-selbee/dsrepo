@@ -12,7 +12,6 @@ body{
 	margin: 0.625em; /* adjust in media query */
 	border: none;
 	float: none;
-	width: 100%;
 	
 }
 
@@ -29,7 +28,7 @@ border: 5px dotted green;
 
 ul.nav li{
 float: left;
-width: 10.10101010101%; /* use media query to adjust for responsiveness */
+width: 13%; /* use media query to adjust for responsiveness */
 overflow: hidden; /* hides nav text */
 }
  /* only affects nav block. Adjust in media query */
