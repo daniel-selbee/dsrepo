@@ -203,7 +203,7 @@ section.monsters {
 	float: none;
 
 }
-img#monsterImages{
+#monsterImages img{
 	float: none;
 }
 
@@ -218,7 +218,7 @@ section.animals {
 	float: none;
 
 }
-img#animalImages{
+#animalImages img{
 	float: none;
 }
 
