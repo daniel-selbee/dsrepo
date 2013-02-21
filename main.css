@@ -52,10 +52,6 @@ border-color: black;
 
 /*------------------------- Intro Section for aside ---------------*/
 
-section.intro {
-	float: left;
-}
-
 h1.introHeading {
 	width: 72.727272727273%; /* same as paragraph container */
 	font-family: 'Share Tech Mono', Verdana, sans-serif;
