@@ -302,6 +302,11 @@ footer p{
 		background-image: none;
 		background-color: blue;
 		}
+		ul.nav li{
+		float: left;
+		width: 13.0%; /* use media query to adjust for responsiveness */
+		overflow: hidden; /* hides nav text */
+		}
 		aside{
 		display: none;
 		}
