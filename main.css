@@ -350,7 +350,7 @@ footer p{
 		margin-left: 1em;
 		float: right;
 		clear: none;
-}
+		}
 		img.resourcesImage{ 
 		width: 50%;
 		float: right;
@@ -388,6 +388,10 @@ footer p{
 		ol.gallery li a{
 		width: 12.5%; /* as ol length decreases, so does the link size */
 		}
+		p.closing{
+		width: 75%;
+		}
+	}
 	
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
