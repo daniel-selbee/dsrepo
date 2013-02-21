@@ -394,7 +394,7 @@ footer p{
 	}
 	
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 500px) and (max-width: 767px) {
+	@media only screen and (min-width: 550px) and (max-width: 767px) {
 		ul.nav li{
 		float: left;
 		width: 12.5%; /* use media query to adjust for responsiveness */
