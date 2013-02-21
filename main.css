@@ -28,7 +28,7 @@ border: 5px dotted green;
 
 ul.nav li{
 float: left;
-width: 9.090909090909%; /* use media query to adjust for responsiveness */
+width: 10.10101010101%; /* use media query to adjust for responsiveness */
 overflow: hidden; /* hides nav text */
 }
  /* only affects nav block. Adjust in media query */
