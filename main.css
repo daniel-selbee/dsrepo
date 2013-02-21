@@ -596,12 +596,7 @@ footer p{
 		clear: both;
 		}
 		section.animals {
-		-webkit-column-count-display: none;
-		-moz-column-count-display: none;
-		column-gap: none; 
-		column-rule: none; 
-		margin-left: 1em; 
-		float: none;
+		columns: none;
 		}
 		section.animals img{
 		width: 90%;
