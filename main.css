@@ -331,36 +331,36 @@ footer p{
 		img.resourcesImage{ 
 		width: 50%;
 		float: left;
-		margin:  0 1em;
+		margin-left: 1em;
 		clear: none;
 		}
 		img.craftingImage{
 		width: 50%;
 		float: left;
-		margin:  0 1em;
+		margin-left: 1em;
 		}
 		img.toolsImage{
 		width: 50%;
 		float: left;
-		margin:  0 1em;
+		margin-left: 1em;
 		}
 		img.buildingStructuresImage{
 		width: 50%;
 		float: left;
-		margin:  0 1em;
+		margin-left: 1em;
 		}
 		img.gatheringFoodImage{
 		width: 50%;
 		float: left;
-		margin:  0 1em;
+		margin-left: 1em;
 		}
 		img.naturalStructuresImage{
 		width: 50%;
 		float: left;
-		margin:  0 1em;
+		margin-left: 1em;
 		}
 		h1 {
-			clear: right;
+			clear: none;
 		}
 		
 	}
