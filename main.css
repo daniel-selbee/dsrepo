@@ -59,6 +59,15 @@ section.intro {
 section.intro img{
 	width: 35%;
 }
+section.intro h1{
+	width: 72.727272727273%; /* same as paragraph container */
+	font-family: 'Share Tech Mono', Verdana, sans-serif;
+	color: white;
+	margin:  0.625em; /* used em for predictability */
+	padding-bottom: 10px;
+	text-shadow: 5px 5px 5px black;
+	clear: both;
+}
 
 /*------------------------- Heading Formatting ----------------------*/
 
