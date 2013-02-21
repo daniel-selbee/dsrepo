@@ -227,7 +227,7 @@ section.animals {
 img {
 	border: 5px outset green;
 	margin-bottom: 10px;
-	margin-right: 200px; /* try to fix sidebar */
+	margin-right: 18.181818181818%; /* body is container 200/1100 */
 	width: 40%; /* body is container  500/1100 */
 	float: right;
 	clear: right; /* don't want images side by side by default */
