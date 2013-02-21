@@ -132,12 +132,12 @@ section.monsters {
 }
 section.monsters img{
 	float: none;
-	width: 40%;
+	width: 50%;
 	margin-left: 0.625em;
 }
 section.monsters p{
 	margin-left: 0.625em;
-	width: 40%;
+	width: 50%;
 }
 
 /*--------------------------------- Animal Section ------------------------------*/
@@ -152,12 +152,12 @@ section.animals {
 
 }
 section.animals img{
-	width: 40%;
+	width: 50%;
 	float: none;
 	margin-left: 0.625em;
 }
 section.animals p{
-	width: 40%;
+	width: 50%;
 	margin-left: 0.625em;
 }
 	
