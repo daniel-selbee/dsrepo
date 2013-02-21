@@ -582,6 +582,9 @@ footer p{
 			clear: none;
 			width: 100%
 		}
+		ol.gallery{ /* Unordered list class */
+		width: 90%;
+		}
 		ol.gallery li a{
 		width: 25%; /* as ol length decreases, so does the link size */
 		}
