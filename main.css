@@ -176,7 +176,7 @@ ol.gallery{ /* Unordered list class */
 ol.gallery li{
 	float: left;
 	width: 30%; /* ol is container */
-	height: 90%;
+	height: 85%;
 	border: none;
 }
 ol.gallery li a{
