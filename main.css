@@ -390,6 +390,7 @@ footer p{
 		}
 		p.closing{
 		width: 75%;
+		clear: both;
 		}
 	}
 	
