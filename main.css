@@ -298,10 +298,6 @@ footer p{
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media screen and (min-width: 768px) and (max-width: 959px) {
-		body {
-		background-image: none;
-		background-color: blue;
-		}
 		ul.nav li{
 		float: left;
 		width: 12.5%; /* use media query to adjust for responsiveness */
