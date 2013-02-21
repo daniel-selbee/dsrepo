@@ -319,17 +319,17 @@ footer p{
 		}
 		p.craftingParagraph{
 		float: none;
-		width: 60%;
+		width: 70%;
 		margin-left: 1em;
 		}
 		p.toolsParagraph{
 		float: none;
-		width: 60%;
+		width: 70%;
 		margin-left: 1em;
 		}
 		p.buildingStructuresParagraph{
 		float: none;
-		width: 60%;
+		width: 70%;
 		margin-left: 1em;
 		}
 		p.gatheringFoodParagraph{
@@ -339,7 +339,7 @@ footer p{
 		}
 		p.naturalStructuresParagraph{
 		float: none;
-		width: 60%;
+		width: 70%;
 		margin-left: 1em;
 		}
 		img.introImage{
