@@ -135,35 +135,35 @@ p{
 /*-------------------------------- Resource Section -----------------------------*/
 
 img.resourcesImage{
-	width: 40%;
+	width: 50%;
 	float: right;
 }
 
 /*-------------------------------- Crafting Section ----------------------------*/
 
 img.craftingImage{
-	width: 40%;
+	width: 50%;
 	float: right;
 }
 
 /*-------------------------------- Tools Section -------------------------------*/
 
 img.toolsImage{
-	width: 40%;
+	width: 50%;
 	float: right;
 }
 
 /*-------------------------------- Building Structures Section -----------------*/
 
 img.buildingStructuresImage{
-	width: 40%;
+	width: 50%;
 	float: right;
 }
 
 /*-------------------------------- Gathering Food Section ------------------------------*/
 
 img.gatheringFoodImage{
-	width: 40%;
+	width: 50%;
 	float: right;
 }
 
@@ -213,7 +213,7 @@ section.animals p{
 /*------------------------- Natural Structures Section ---------------*/
 	
 	img.naturalStructuresImage{
-	width: 40%;
+	width: 50%;
 	float: right;
 }
 	
