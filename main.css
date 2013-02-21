@@ -66,6 +66,7 @@ p.introParagraph {
 }
 img.introImage{
 	width: 35%;
+	margin-left:  0.625em;
 }
 
 /*-------------------------- Aside Formatting --------------------------*/
