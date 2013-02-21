@@ -50,6 +50,12 @@ ul.nav li a:active{
 border-color: black;
 }
 
+/*------------------------- Resources Section for aside ---------------*/
+
+#Resources {
+	float: left;
+}
+
 /*------------------------- Heading Formatting ----------------------*/
 
 h1, h2{
