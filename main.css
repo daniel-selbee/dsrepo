@@ -59,11 +59,9 @@ h1.introHeading {
 	margin:  0.625em; /* used em for predictability */
 	padding-bottom: 10px;
 	text-shadow: 5px 5px 5px black;
-	float: left;
 	clear: both;
 }
 p.introParagraph {
-	float: left;
 	width: 35%;
 }
 img.introImage{
