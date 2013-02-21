@@ -93,6 +93,7 @@ aside.sidebar p{
 	margin-right: 0;
 	padding: 0;
 	display: block;
+	border: 5px outset green; /* test for position */
 }
 aside ol {
 	list-style-type: none;
