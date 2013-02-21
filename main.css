@@ -36,11 +36,11 @@ text-decoration: none;
 color: white;
 background: -webkit-linear-gradient(top, silver, gray);
 display: block;
-height: 30px;
-line-height: 30px;
+height: 1.875em;
+line-height: 1.875em;
 text-align: center;
 font-size: 1em;
-border: 5px outset green;
+border: 0.313em outset green;
 border-radius: 0.625em;
 }
 
@@ -58,8 +58,8 @@ h1.introHeading {
 	font-family: 'Share Tech Mono', Verdana, sans-serif;
 	color: white;
 	margin:  0.625em; /* used em for predictability */
-	padding-bottom: 10px;
-	text-shadow: 5px 5px 5px black;
+	padding-bottom: 0.625em;
+	text-shadow: 0.313em 0.313em 0.313em black;
 	clear: left;
 }
 p.introParagraph {
@@ -93,8 +93,8 @@ aside ol li a{
 	background: -webkit-linear-gradient(top, silver, gray);
 	display: block;
 	margin: 0; /* may have to reinsert margin 0 auto */
-	padding: 20px;
-	border: 5px outset green;
+	padding: 1.250em;
+	border: 0.313em outset green;
 	
 }
 
@@ -109,8 +109,8 @@ h1, h2{
 	font-family: 'Share Tech Mono', Verdana, sans-serif;
 	color: white;
 	margin:  0.625em; /* used em for predictability */
-	padding-bottom: 10px;
-	text-shadow: 5px 5px 5px black;
+	padding-bottom: 0.625em;
+	text-shadow: 0.313em 0.313em 0.313em black;
 	clear: both;
 }
 h3{
@@ -118,8 +118,8 @@ h3{
 	font-family: 'Share Tech Mono', Verdana, sans-serif;
 	color: white;
 	margin:  0.625em;
-	padding-bottom: 10px;
-	text-shadow: 5px 5px 5px black;
+	padding-bottom: 0.625em;
+	text-shadow: 0.313em 0.313em 0.313em black;
 	clear: both;
 }
 
@@ -128,9 +128,9 @@ p{
 	font-family: 'Roboto Condensed', Verdana, sans-serif;
 	width: 35%; /* body is the container 800px/1100px */
 	color: white;
-	margin-bottom: 10px; /* adjust margin and padding in media query */
+	margin-bottom: 0.625em; /* adjust margin and padding in media query */
 	margin-left: 0.625em;
-	padding-bottom: 15px;
+	padding-bottom: 0.938em;
 }
 
 /*-------------------------------- Resource Section -----------------------------*/
@@ -181,7 +181,7 @@ section.monsters {
 	-moz-column-count: 2;
 	column-gap: length|0.75em; /* distance between columns */
 	column-rule: balance|auto; /* evens length of columns */
-	margin: 30, 0px; /* further adjust in media query */
+	margin: 1.875em, 0; /* further adjust in media query */
 	float: none;
 
 }
@@ -202,7 +202,7 @@ section.animals {
 	-moz-column-count: 2;
 	column-gap: length|0.75em; /* distance between columns (-.25 from W3C recommendation) */
 	column-rule: balance|auto; /* evens length of columns */
-	margin: 30px, 0; /* further adjust in media query */
+	margin: 1.875em, 0; /* further adjust in media query */
 	float: none;
 
 }
@@ -239,7 +239,7 @@ ol.gallery li{
 	border: none;
 }
 ol.gallery li a{
-	border: 5px outset green;
+	border: 0.313em outset green;
 	display: block;
 	width: 10%; /* as ol length decreases, so does the link size */
 	height: 100%;
@@ -248,10 +248,10 @@ ol.gallery li a{
 	
 }
 ol.gallery li a:hover{
-	border: 5px outset orange;
+	border: 0.313em outset orange;
 }
 ol.gallery li a:active{
-	border: 5px outset black;
+	border: 0.313em outset black;
 }
 
 /*-------------------------- CTA Button --------------------------------*/
@@ -266,12 +266,12 @@ text-decoration: none;
 color: white;
 background: -webkit-linear-gradient(top, silver, gray);
 display: block;
-height: 30px;
+height: 1.875em;
 width: 45.454545454545%; /* body is container 500/1100 */
-line-height: 30px;
+line-height: 1.875em;
 text-align: center;
-border: 5px outset green;
-border-radius: 10px;
+border: 0.313em outset green;
+border-radius: 0.625em;
 } /* end initial link */
 h1.cta a:hover{
 border-color: orange;
@@ -283,14 +283,14 @@ border-color: black;
 /*--------------------------- Footer Formatting -------------------------*/
 
 footer{
-	height: 50px;
+	height: 3.125em;
 	background: -webkit-linear-gradient(top, #38b638, #184f20);
 	overflow: hidden;
 }
 footer p{
 	font-family: 'Share Tech Mono', Verdana, sans-serif;
 	margin: 0 auto;
-	padding-top: 10px;
+	padding-top: 0.625em;
 }
 
 
