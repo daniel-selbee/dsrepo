@@ -151,7 +151,7 @@ section.animals {
 
 }
 section.animals img{
-	width: 35%
+	width: 35%;
 	float: none;
 	margin-left: 0.625em;
 }
