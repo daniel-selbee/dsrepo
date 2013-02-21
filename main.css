@@ -6,15 +6,12 @@ body{
 	width: 90%;	/* from 1100px to 90% */
 }
 
-/*--------------------------------- Image Formatting ------------------------------- */
+/*----------------------- logo Formatting-----------------------------*/
 
-img {
-	border: 5px outset green;
-	margin-bottom: 10px;
-	margin-right: 18.181818181818%; /* body is container 200/1100 */
-	width: 40%; /* body is container  500/1100 */
-	float: right;
-	clear: right; /* don't want images side by side by default */
+#logo img{
+	margin: 10px; /* adjust in media query */
+	border: none;
+	float: none;
 	
 }
 
@@ -55,18 +52,6 @@ ul.nav li a:active{
 border-color: black;
 }
 
-
-/*-------------------------- General Paragraph Format ----------------*/
-p{
-	font-family: 'Roboto Condensed', Verdana, sans-serif;
-	width: 35%; /* body is the container 800px/1100px */
-	color: white;
-	margin-bottom: 10px; /* adjust margin and padding in media query */
-	margin-left: 10px;
-	padding-bottom: 15px;
-}
-
-
 /*------------------------- Heading Formatting ----------------------*/
 
 h1, h2{
@@ -88,81 +73,14 @@ h3{
 	clear: both;
 }
 
-/*----------------------- logo Formatting-----------------------------*/
-
-#logo img{
-	margin: 10px; /* adjust in media query */
-	border: none;
-	float: none;
-	
-}
-
-	
-/*------------------------- Gallery Formatting------------------------*/
-
-ol.gallery{
-	list-style-type: none;
+/*-------------------------- General Paragraph Format ----------------*/
+p{
+	font-family: 'Roboto Condensed', Verdana, sans-serif;
+	width: 35%; /* body is the container 800px/1100px */
+	color: white;
+	margin-bottom: 10px; /* adjust margin and padding in media query */
 	margin-left: 10px;
-	padding: 0;
-	width: 72.727272727273%; /* body is container. Copy and pasted from percentage above */
-	overflow: hidden;
-}
-ol.gallery li{
-	float: left;
-	width: 10%; /* body is container 110/1100*/
-}
-ol.gallery li a{
-	border: 5px outset green;
-	display: block;
-	height: 60px;
-	
-}
-ol.gallery li a:visited{
-	border: 5px outset black;
-}
-ol.gallery li a:hover{
-	border: 5px outset orange;
-}
-ol.gallery li a:active{
-	border: 5px outset black;
-}
-/*--------------------------- Footer Formatting -------------------------*/
-
-footer{
-	height: 50px;
-	background: -webkit-linear-gradient(top, #38b638, #184f20);
-	overflow: hidden;
-}
-footer p{
-	font-family: 'Share Tech Mono', Verdana, sans-serif;
-	margin: 0 auto;
-	padding-top: 10px;
-}
-
-/*-------------------------- CTA Button --------------------------------*/
-
-h1.cta{
-margin: 10px;
-list-style-type: none;
-overflow: hidden;
-}
-h1.cta a{
-text-decoration: none;
-color: white;
-background: -webkit-linear-gradient(top, silver, gray);
-display: block;
-height: 30px;
-width: 45.454545454545%; /* body is container 500/1100 */
-line-height: 30px;
-text-align: center;
-border: 5px outset green;
-border-radius: 10px;
-} /* end initial link */
-h1.cta a:hover{
-border-color: orange;
-}
-h1.cta a:active{
-border-color: black;
+	padding-bottom: 15px;
 }
 
 /*-------------------------- Aside Formatting --------------------------*/
@@ -201,6 +119,18 @@ aside ol li a:hover {
 	border: outset orange;
 }
 
+/*--------------------------------- Image Formatting ------------------------------- */
+
+img {
+	border: 5px outset green;
+	margin-bottom: 10px;
+	margin-right: 18.181818181818%; /* body is container 200/1100 */
+	width: 40%; /* body is container  500/1100 */
+	float: right;
+	clear: right; /* don't want images side by side by default */
+	
+}
+
 /*--------------------------------- Monster Paragraphs -----------------------------*/
 
 #Monsters {
@@ -233,7 +163,74 @@ section.animals {
 img.animals {
 	float: none;
 }
+	
+/*------------------------- Gallery Formatting------------------------*/
 
+ol.gallery{
+	list-style-type: none;
+	margin-left: 10px;
+	padding: 0;
+	width: 72.727272727273%; /* body is container. Copy and pasted from percentage above */
+	overflow: hidden;
+}
+ol.gallery li{
+	float: left;
+	width: 10%; /* body is container 110/1100*/
+}
+ol.gallery li a{
+	border: 5px outset green;
+	display: block;
+	height: 60px;
+	
+}
+ol.gallery li a:visited{
+	border: 5px outset black;
+}
+ol.gallery li a:hover{
+	border: 5px outset orange;
+}
+ol.gallery li a:active{
+	border: 5px outset black;
+}
+
+/*-------------------------- CTA Button --------------------------------*/
+
+h1.cta{
+margin: 10px;
+list-style-type: none;
+overflow: hidden;
+}
+h1.cta a{
+text-decoration: none;
+color: white;
+background: -webkit-linear-gradient(top, silver, gray);
+display: block;
+height: 30px;
+width: 45.454545454545%; /* body is container 500/1100 */
+line-height: 30px;
+text-align: center;
+border: 5px outset green;
+border-radius: 10px;
+} /* end initial link */
+h1.cta a:hover{
+border-color: orange;
+}
+h1.cta a:active{
+border-color: black;
+}
+
+/*--------------------------- Footer Formatting -------------------------*/
+
+footer{
+	height: 50px;
+	background: -webkit-linear-gradient(top, #38b638, #184f20);
+	overflow: hidden;
+}
+footer p{
+	font-family: 'Share Tech Mono', Verdana, sans-serif;
+	margin: 0 auto;
+	padding-top: 10px;
+}
 
 
 /*--------------------------------- Media Queries ------------------------------------*/
