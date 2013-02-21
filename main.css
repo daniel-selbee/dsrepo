@@ -66,7 +66,7 @@ p.introParagraph {
 	float: left;
 }
 img.introImage{
-	width: 35%;
+	width: 40%;
 	margin:  0 1.625em;
 	float: right;
 }
@@ -135,35 +135,35 @@ p{
 /*-------------------------------- Resource Section -----------------------------*/
 
 img.resourcesImage{
-	width: 35%;
+	width: 40%;
 	float: right;
 }
 
 /*-------------------------------- Crafting Section ----------------------------*/
 
 img.craftingImage{
-	width: 35%;
+	width: 40%;
 	float: right;
 }
 
 /*-------------------------------- Tools Section -------------------------------*/
 
 img.toolsImage{
-	width: 35%;
+	width: 40%;
 	float: right;
 }
 
 /*-------------------------------- Building Structures Section -----------------*/
 
 img.buildingStructuresImage{
-	width: 35%;
+	width: 40%;
 	float: right;
 }
 
 /*-------------------------------- Gathering Food Section ------------------------------*/
 
 img.gatheringFoodImage{
-	width: 35%;
+	width: 40%;
 	float: right;
 }
 
@@ -213,7 +213,7 @@ section.animals p{
 /*------------------------- Natural Structures Section ---------------*/
 	
 	img.naturalStructuresImage{
-	width: 35%;
+	width: 40%;
 	float: right;
 }
 	
@@ -293,7 +293,7 @@ footer p{
 
 /*--------------------------------- Media Queries ------------------------------------*/
 
-	/* Tablet Portrait size to standar 960 (devices and browsers) */
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media screen and (min-width: 768px) and (max-width: 959px) {
 		body {
 		background-image: none;
