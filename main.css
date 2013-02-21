@@ -56,10 +56,10 @@ section.intro {
 	float: left;
 }
 
-section.intro img{
+img.intro {
 	width: 35%;
 }
-section.intro h1{
+h1.intro {
 	width: 72.727272727273%; /* same as paragraph container */
 	font-family: 'Share Tech Mono', Verdana, sans-serif;
 	color: white;
