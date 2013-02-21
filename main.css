@@ -23,7 +23,6 @@ padding: 0;
 list-style-type: none;
 overflow: hidden;
 width: 100%; /* spans entire body */
-border: 5px dotted green;
 }
 
 ul.nav li{
