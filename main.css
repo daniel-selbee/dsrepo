@@ -150,9 +150,13 @@ section.animals {
 	float: none;
 
 }
-.animals img{
+section.animals img{
 	width: 35%
 	float: none;
+	margin-left: 0.625em;
+}
+section.animals p{
+	margin-left: 0.625em;
 }
 	
 /*------------------------- Gallery Formatting------------------------*/
