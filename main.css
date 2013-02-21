@@ -238,7 +238,9 @@ img {
 
 	/* Tablet Portrait size to standar 960 (devices and browsers) */
 	@media screen and (min-width: 768px) and (max-width: 959px) {
-	
+		body {
+		background-color: blue;
+		}
 	}
 	
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
