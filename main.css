@@ -594,12 +594,13 @@ footer p{
 		p.closing{
 		width: 100%;
 		clear: both;
+		}
 		section.animals {
 		-webkit-column-count: none;
 		-moz-column-count: none;
-		column-gap: length|0.75em; /* distance between columns (-.25 from W3C recommendation) */
-		column-rule: balance|auto; /* evens length of columns */
-		margin: 1.875em, 0; /* further adjust in media query */
+		column-gap: none; 
+		column-rule: none; 
+		margin: 1.875em, 0; 
 		float: none;
 		}
 		section.animals img{
@@ -610,7 +611,6 @@ footer p{
 		section.animals p{
 		width: 100%;
 		margin-left: 0.625em;
-		}
 		}
 	}
 
