@@ -494,8 +494,8 @@ footer p{
 		background-color: green;
 		}
 		ul.nav li{
-		float: left;
-		width: 12.5%; /* use media query to adjust for responsiveness */
+		float: none;
+		width: 100%; /* use media query to adjust for responsiveness */
 		overflow: hidden; /* hides nav text */
 		}
 		aside{
