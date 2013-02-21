@@ -137,6 +137,7 @@ p{
 img.resourcesImage{
 	width: 50%;
 	float: right;
+	margin:  0 1.625em;
 }
 
 /*-------------------------------- Crafting Section ----------------------------*/
@@ -144,6 +145,7 @@ img.resourcesImage{
 img.craftingImage{
 	width: 50%;
 	float: right;
+	margin:  0 1.625em;
 }
 
 /*-------------------------------- Tools Section -------------------------------*/
@@ -151,6 +153,7 @@ img.craftingImage{
 img.toolsImage{
 	width: 50%;
 	float: right;
+	margin:  0 1.625em;
 }
 
 /*-------------------------------- Building Structures Section -----------------*/
@@ -158,6 +161,7 @@ img.toolsImage{
 img.buildingStructuresImage{
 	width: 50%;
 	float: right;
+	margin:  0 1.625em;
 }
 
 /*-------------------------------- Gathering Food Section ------------------------------*/
@@ -165,6 +169,7 @@ img.buildingStructuresImage{
 img.gatheringFoodImage{
 	width: 50%;
 	float: right;
+	margin:  0 1.625em;
 }
 
 /*--------------------------------- Monster Section -----------------------------*/
