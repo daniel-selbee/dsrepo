@@ -246,9 +246,6 @@ ol.gallery li a{
 	overflow: hidden; /* will keep images from expanding beyond link border*/
 	
 }
-ol.gallery li a:visited{
-	border: 5px outset black;
-}
 ol.gallery li a:hover{
 	border: 5px outset orange;
 }
