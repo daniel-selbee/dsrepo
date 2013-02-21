@@ -61,13 +61,14 @@ h1.introHeading {
 	text-shadow: 5px 5px 5px black;
 	clear: both;
 }
+p.introParagraph {
+	float: left;
+}
 img.introImage{
 	width: 35%;
 	float: left;
 }
-p.introParagraph {
-	float: left;
-}	
+	
 
 /*------------------------- Heading Formatting ----------------------*/
 
