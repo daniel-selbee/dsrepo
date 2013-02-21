@@ -65,7 +65,7 @@ h3{
 	width: 35%; /* for monster subheadings */
 	font-family: 'Share Tech Mono', Verdana, sans-serif;
 	color: white;
-	margin:  0;
+	margin:  0.625em;
 	padding-bottom: 10px;
 	text-shadow: 5px 5px 5px black;
 	clear: both;
@@ -77,7 +77,7 @@ p{
 	width: 35%; /* body is the container 800px/1100px */
 	color: white;
 	margin-bottom: 10px; /* adjust margin and padding in media query */
-	margin-left: 10px;
+	margin-left: 0.625em;
 	padding-bottom: 15px;
 }
 
@@ -118,7 +118,7 @@ aside ol li a:hover {
 }
 
 
-/*--------------------------------- Monster Paragraphs -----------------------------*/
+/*--------------------------------- Monster Section -----------------------------*/
 
 
 section.monsters {
@@ -133,8 +133,11 @@ section.monsters {
 section.monsters img{
 	float: none;
 	width: 35%;
+	margin-left: 0.625em;
 }
-
+section.monsters p{
+	margin-left: 0.625em;
+}
 
 /*--------------------------------- Animal Section ------------------------------*/
 
