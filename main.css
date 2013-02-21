@@ -64,6 +64,7 @@ h1.introHeading {
 }
 p.introParagraph {
 	float: left;
+	width: 35%;
 }
 img.introImage{
 	width: 35%;
