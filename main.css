@@ -22,7 +22,7 @@ margin-left: 0.625em;
 padding: 0;
 list-style-type: none;
 overflow: hidden;
-width: 72.727272727273%; /* from 800px */
+width: 100%; /* spans entire body */
 }
 
 ul.nav li{
