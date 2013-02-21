@@ -578,9 +578,8 @@ footer p{
 		float: none;
 		margin-left: 1em;
 		}
-		h1, h2 {
-			clear: both;
-			width: 100%;
+		h1.introHeading {
+		width: 100%;
 		}
 		ol.gallery{ /* Unordered list class */
 		width: 90%;
