@@ -161,7 +161,7 @@ ol.gallery{ /* Unordered list class */
 	list-style-type: none;
 	margin-left: 10%;
 	padding: 0;
-	width: 100%; /* takes up entire body element */
+	width: 72.727272727273%; /* made the same width as the header */
 	float: left;
 	overflow: hidden;
 }
