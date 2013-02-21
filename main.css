@@ -315,6 +315,9 @@ footer p{
 		background-image: none;
 		background-color: red;
 		}
+		aside{
+		display: none;
+		}
 	}
 	
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -322,6 +325,9 @@ footer p{
 		body {
 		background-image: none;
 		background-color: green;
+		}
+		aside{
+		display: none;
 		}
 	}
 
