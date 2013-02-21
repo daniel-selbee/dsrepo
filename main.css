@@ -585,6 +585,9 @@ footer p{
 		ol.gallery li a{
 		width: 12.5%; /* as ol length decreases, so does the link size */
 		}
+		h1.cta a{
+		width: 100%;
+		}
 		p.closing{
 		width: 100%;
 		clear: both;
