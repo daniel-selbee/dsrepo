@@ -183,7 +183,8 @@ section.monsters {
 	-webkit-column-count: 2;
 	-moz-column-count: 2;
 	column-gap: 0.75em; /* distance between columns */
-	margin: 1.875em, 0; /* further adjust in media query */
+	margin-top: 1.875em; /* further adjust in media query */
+	margin-bottom: 1.875em;
 	float: none;
 
 }
