@@ -136,16 +136,36 @@ p{
 
 img.resourcesImage{
 	width: 35%;
+	float: right;
 }
 
 /*-------------------------------- Crafting Section ----------------------------*/
 
+img.craftingImage{
+	width: 35%;
+	float: right;
+}
+
 /*-------------------------------- Tools Section -------------------------------*/
+
+img.toolsImage{
+	width: 35%;
+	float: right;
+}
 
 /*-------------------------------- Building Structures Section -----------------*/
 
+img.buildingStructuresImage{
+	width: 35%;
+	float: right;
+}
+
 /*-------------------------------- Gathering Food Section ------------------------------*/
 
+img.GatheringFoodImage{
+	width: 35%;
+	float: right;
+}
 
 /*--------------------------------- Monster Section -----------------------------*/
 
@@ -191,6 +211,11 @@ section.animals p{
 }
 
 /*------------------------- Natural Structures Section ---------------*/
+	
+	img.naturalStructuresImage{
+	width: 35%;
+	float: right;
+}
 	
 /*------------------------- Gallery Formatting------------------------*/
 
