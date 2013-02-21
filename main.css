@@ -110,7 +110,6 @@ ol.gallery{
 ol.gallery li{
 	float: left;
 	width: 10%; /* body is container 110/1100*/
-	clear: right;
 }
 ol.gallery li a{
 	border: 5px outset green;
