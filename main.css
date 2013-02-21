@@ -12,6 +12,8 @@ body{
 	margin: 0.625em; /* adjust in media query */
 	border: none;
 	float: none;
+	width: 50%;
+	position: 50%, 0;
 	
 }
 
