@@ -120,7 +120,6 @@ aside ol li a:hover {
 }
 
 
-
 /*--------------------------------- Monster Paragraphs -----------------------------*/
 
 #Monsters {
@@ -137,6 +136,7 @@ section.monsters {
 }
 img.monsters {
 	float: none;
+	width: 35%;
 }
 
 /*--------------------------------- Animal Section ------------------------------*/
@@ -151,6 +151,7 @@ section.animals {
 
 }
 img.animals {
+	width: 35%
 	float: none;
 }
 	
@@ -160,12 +161,12 @@ ol.gallery{ /* Unordered list class */
 	list-style-type: none;
 	margin-left: 10%;
 	padding: 0;
-	width: 72.727272727273%; /* body is container. Copy and pasted from percentage above */
+	width: 50%; /* body is container. Copy and pasted from percentage above */
 	overflow: hidden;
 }
 ol.gallery li{
 	float: left;
-	width: 30%; /* ol is container */
+	width: 50%; /* ol is container */
 	height: 85%;
 	border: none;
 }
