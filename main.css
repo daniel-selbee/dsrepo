@@ -173,7 +173,7 @@ ol.gallery li{
 ol.gallery li a{
 	border: 5px outset green;
 	display: block;
-	width: 8%;
+	width: 10%; /* as ol length decreases, so does the link size */
 	height: 100%;
 	float: left;
 	
