@@ -162,18 +162,18 @@ ol.gallery{ /* Unordered list class */
 	margin-left: 10%;
 	padding: 0;
 	width: 100%; /* takes up entire body element */
+	float: left;
 	overflow: hidden;
 }
 ol.gallery li{
-	float: left;
 	width: 100%; /* ol is container */
-	height: 85%;
+	height: 100%;
 	border: none;
 }
 ol.gallery li a{
 	border: 5px outset green;
 	display: block;
-	width: 7%;
+	width: 8%;
 	height: 100%;
 	float: left;
 	
