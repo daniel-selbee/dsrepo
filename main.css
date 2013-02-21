@@ -304,6 +304,9 @@ footer p{
 		aside{
 		display: none;
 		}
+		p.introParagraph {
+		float: none;
+		}
 	}
 	
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
