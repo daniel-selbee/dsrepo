@@ -39,6 +39,7 @@ display: block;
 height: 30px;
 line-height: 30px;
 text-align: center;
+font-size: 1em;
 border: 5px outset green;
 border-radius: 0.625em;
 }
