@@ -307,7 +307,26 @@ footer p{
 		aside{
 		display: none;
 		}
-		p.introParagraph {
+		p.introParagraph{
+		float: none;
+		}
+		p.resourcesParagraph{ /* section order: resources, crafting, tools, building structures
+								Gathering Food, Natural Structures */
+		float: none;
+		}
+		p.craftingParagraph{
+		float: none;
+		}
+		p.toolsParagraph{
+		float: none;
+		}
+		p.buildingStructuresParagraph{
+		float: none;
+		}
+		p.gatheringFoodParagraph{
+		float: none;
+		}
+		p.naturalStructuresParagraph{
 		float: none;
 		}
 	}
