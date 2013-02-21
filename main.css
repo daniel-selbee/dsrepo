@@ -39,10 +39,8 @@ display: block;
 height: 30px;
 line-height: 30px;
 text-align: center;
-border-style: outset;
-border-width: 5px;
-border-color: green;
-border-radius: 10px;
+border: 5px outset green;
+border-radius: 0.625em;
 }
 
 ul.nav li a:hover{
@@ -58,7 +56,7 @@ h1, h2{
 	width: 72.727272727273%; /* same as paragraph container */
 	font-family: 'Share Tech Mono', Verdana, sans-serif;
 	color: white;
-	margin:  10px;
+	margin:  0.625em; /* used em for predictability */
 	padding-bottom: 10px;
 	text-shadow: 5px 5px 5px black;
 	clear: both;
@@ -150,7 +148,7 @@ section.animals {
 	float: none;
 
 }
-img.animals {
+.animals img{
 	width: 35%
 	float: none;
 }
@@ -159,7 +157,7 @@ img.animals {
 
 ol.gallery{ /* Unordered list class */
 	list-style-type: none;
-	margin-left: 10%;
+	margin-left: 0.625em;
 	padding: 0;
 	width: 72.727272727273%; /* made the same width as the header */
 	float: left;
@@ -176,6 +174,7 @@ ol.gallery li a{
 	width: 10%; /* as ol length decreases, so does the link size */
 	height: 100%;
 	float: left;
+	overflow: hidden; /* will keep images from expanding beyond link border*/
 	
 }
 ol.gallery li a:visited{
@@ -191,7 +190,7 @@ ol.gallery li a:active{
 /*-------------------------- CTA Button --------------------------------*/
 
 h1.cta{
-margin: 10px;
+margin: 0.625em;
 list-style-type: none;
 overflow: hidden;
 }
