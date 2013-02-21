@@ -310,8 +310,7 @@ footer p{
 		p.introParagraph{
 		float: none;
 		}
-		p.resourcesParagraph{ /* section order: resources, crafting, tools, building structures
-								Gathering Food, Natural Structures */
+		p.resourcesParagraph{ 
 		float: none;
 		}
 		p.craftingParagraph{
@@ -328,6 +327,36 @@ footer p{
 		}
 		p.naturalStructuresParagraph{
 		float: none;
+		}
+		img.resourcesImage{ 
+		width: 50%;
+		float: left;
+		margin:  0 1em;
+		}
+		img.craftingImage{
+		width: 50%;
+		float: left;
+		margin:  0 1em;
+		}
+		img.toolsImage{
+		width: 50%;
+		float: left;
+		margin:  0 1em;
+		}
+		img.buildingStructuresImage{
+		width: 50%;
+		float: left;
+		margin:  0 1em;
+		}
+		img.gatheringFoodImage{
+		width: 50%;
+		float: left;
+		margin:  0 1em;
+		}
+		img.naturalStructuresImage{
+		width: 50%;
+		float: left;
+		margin:  0 1em;
 		}
 	}
 	
