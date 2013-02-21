@@ -136,6 +136,9 @@ section.monsters img{
 	float: none;
 	width: 35%;
 }
+section.monsters p{
+	margin; 0;
+}
 
 /*--------------------------------- Animal Section ------------------------------*/
 
