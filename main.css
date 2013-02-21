@@ -88,10 +88,11 @@ aside {
 	width: 200px;	
 }
 aside.sidebar p{
-	text-align: right;
-	width: 100px;
+	text-align: center;
+	width: 200px;
 	margin-right: 0;
 	padding: 0;
+	display: block;
 }
 aside ol {
 	list-style-type: none;
