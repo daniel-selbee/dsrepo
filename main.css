@@ -50,9 +50,9 @@ ul.nav li a:active{
 border-color: black;
 }
 
-/*------------------------- Resources Section for aside ---------------*/
+/*------------------------- Intro Section for aside ---------------*/
 
-#Resources {
+section.intro {
 	float: left;
 }
 
