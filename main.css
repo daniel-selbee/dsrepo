@@ -161,18 +161,19 @@ ol.gallery{ /* Unordered list class */
 	list-style-type: none;
 	margin-left: 10%;
 	padding: 0;
-	width: 50%; /* body is container. Copy and pasted from percentage above */
+	width: 72.727272727273%; /* body is container. Copy and pasted from percentage above */
 	overflow: hidden;
 }
 ol.gallery li{
 	float: left;
-	width: 50%; /* ol is container */
+	width: 100%; /* ol is container */
 	height: 85%;
 	border: none;
 }
 ol.gallery li a{
 	border: 5px outset green;
 	display: block;
+	width: 100%
 	height: 100%;
 	
 }
