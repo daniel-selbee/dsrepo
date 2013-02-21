@@ -588,7 +588,7 @@ footer p{
 		width: 25%; /* as ol length decreases, so does the link size */
 		}
 		h1.cta a{
-		width: 90%;
+		width: 100%;
 		}
 		p.closing{
 		width: 100%;
