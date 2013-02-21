@@ -120,9 +120,7 @@ aside ol li a:hover {
 
 /*--------------------------------- Monster Paragraphs -----------------------------*/
 
-#Monsters {
-	clear: both;
-}
+
 section.monsters {
 	-webkit-column-count: 2;
 	-moz-column-count: 2;
@@ -136,10 +134,7 @@ section.monsters img{
 	float: none;
 	width: 35%;
 }
-section.monsters p{
-	margin; 0;
-	padding-left: 0;
-}
+
 
 /*--------------------------------- Animal Section ------------------------------*/
 
