@@ -168,14 +168,14 @@ img.animals {
 
 ol.gallery{ /* Unordered list class */
 	list-style-type: none;
-	margin-left: 10px;
+	margin-left: 10%;
 	padding: 0;
 	width: 72.727272727273%; /* body is container. Copy and pasted from percentage above */
 	overflow: hidden;
 }
 ol.gallery li{
 	float: left;
-	width: 72.727272727273%; /* ol is container */
+	width: 30%; /* ol is container */
 }
 ol.gallery li a{
 	border: 5px outset green;
