@@ -114,7 +114,7 @@ ol.gallery li{
 ol.gallery li a{
 	border: 5px outset green;
 	display: block;
-	height: 60px;
+	height: 60%;
 	
 }
 ol.gallery li a:visited{
