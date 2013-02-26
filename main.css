@@ -14,49 +14,45 @@ body{
 	float: none;
 	width: 50%;
 	position: relative;
-	left: 25%;
-	
+	left: 25%;	
 }
 
 /* -------------------------- Navigation Bar ------------------------- */
 
 ul.nav{
-margin-left: 0.625em;
-padding: 0;
-list-style-type: none;
-overflow: hidden;
-width: 100%; /* spans entire body */
+	margin-left: 0.625em;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	width: 100%; /* spans entire body */
 }
 
 ul.nav li{
-float: left;
-width: 10.5%; /* use media query to adjust for responsiveness */
-overflow: hidden; /* hides nav text */
-}
- /* only affects nav block. Adjust in media query */
-ul.nav li a{
-text-decoration: none;
-color: white;
-background: -webkit-linear-gradient(top, silver, gray);
-display: block;
-height: 1.875em;
-line-height: 1.875em;
-text-align: center;
-font-size: 1em;
-border: 0.313em outset green;
-border-radius: 0.625em;
+	float: left;
+	width: 10.5%; /* use media query to adjust for responsiveness */
+	overflow: hidden; /* hides nav text */
 }
 
-ul.nav li a:visited{
-border-color: black;
-opacity: 0.75;
+ /* only affects nav block. Adjust in media query */
+ul.nav li a{
+	text-decoration: none;
+	color: white;
+	background: -webkit-linear-gradient(top, silver, gray);
+	display: block;
+	height: 1.875em;
+	line-height: 1.875em;
+	text-align: center;
+	font-size: 1em;
+	border: 0.313em outset green;
+	border-radius: 0.625em;
 }
 
 ul.nav li a:hover{
-border-color: orange;
+	border-color: orange;
 }
+
 ul.nav li a:active{
-border-color: black;
+	border-color: black;
 }
 
 /*------------------------- Intro Section to sit next to aside ---------------*/
@@ -70,10 +66,12 @@ h1.introHeading {
 	text-shadow: 0.313em 0.313em 0.313em black;
 	clear: left;
 }
+
 p.introParagraph {
 	width: 35%;
 	float: left;
 }
+
 img.introImage{
 	width: 40%;
 	margin:  0 1.625em;
@@ -90,6 +88,7 @@ aside {
 aside ol {
 	list-style-type: none;
 }
+
 aside ol li {
 	font-family: 'Roboto Condensed', Verdana, sans-serif;
 	text-align: center;
@@ -102,8 +101,7 @@ aside ol li a{
 	display: block;
 	margin: 0; /* may have to reinsert margin 0 auto */
 	padding: 1.250em;
-	border: 0.313em outset green;
-	
+	border: 0.313em outset green;	
 }
 
 aside ol li a:visited {
@@ -125,6 +123,7 @@ h1, h2{
 	text-shadow: 0.313em 0.313em 0.313em black;
 	clear: both;
 }
+
 h3{
 	width: 35%; /* for monster subheadings */
 	font-family: 'Share Tech Mono', Verdana, sans-serif;
@@ -136,6 +135,7 @@ h3{
 }
 
 /*-------------------------- General Paragraph Format ----------------*/
+
 p{
 	font-family: 'Roboto Condensed', Verdana, sans-serif;
 	width: 35%; /* body is the container 800px/1100px */
@@ -187,7 +187,6 @@ img.gatheringFoodImage{
 
 /*--------------------------------- Monster Section -----------------------------*/
 
-
 section.monsters {
 	-webkit-column-count: 2;
 	-moz-column-count: 2;
@@ -195,13 +194,14 @@ section.monsters {
 	margin-top: 1.875em; /* further adjust in media query */
 	margin-bottom: 1.875em;
 	float: none;
-
 }
+
 section.monsters img{
 	float: none;
 	width: 60%;
 	margin-left: 0.625em;
 }
+
 section.monsters p{
 	margin-left: 0.625em;
 	width: 60%;
@@ -216,13 +216,14 @@ section.animals {
 	margin-top: 1.875em; /* further adjust in media query */
 	margin-bottom: 1.875em;
 	float: none;
-
 }
+
 section.animals img{
 	width: 60%;
 	float: none;
 	margin-left: 0.625em;
 }
+
 section.animals p{
 	width: 60%;
 	margin-left: 0.625em;
@@ -230,7 +231,7 @@ section.animals p{
 
 /*------------------------- Natural Structures Section ---------------*/
 	
-	img.naturalStructuresImage{
+img.naturalStructuresImage{
 	width: 50%;
 	float: right;
 }
@@ -245,11 +246,13 @@ ol.gallery{ /* Unordered list class */
 	float: left;
 	overflow: hidden;
 }
+
 ol.gallery li{
 	width: 100%; /* ol is container */
 	height: 100%;
 	border: none;
 }
+
 ol.gallery li a{
 	border: 0.313em outset green;
 	display: block;
@@ -259,12 +262,15 @@ ol.gallery li a{
 	overflow: hidden; /* will keep images from expanding beyond link border*/
 	
 }
+
 ol.gallery li a:visited{
 	opacity: 0.80;
 }
+
 ol.gallery li a:hover{
 	border: 0.313em outset orange;
 }
+
 ol.gallery li a:active{
 	border: 0.313em outset black;
 }
@@ -272,31 +278,34 @@ ol.gallery li a:active{
 /*-------------------------- CTA Button --------------------------------*/
 
 h1.cta{
-margin: 0.625em;
-list-style-type: none;
-overflow: hidden;
+	margin: 0.625em;
+	list-style-type: none;
+	overflow: hidden;
 }
+
 h1.cta a{
-text-decoration: none;
-color: white;
-background: -webkit-linear-gradient(top, silver, gray);
-display: block;
-height: 1.875em;
-width: 45.454545454545%; /* body is container 500/1100 */
-line-height: 1.875em;
-text-align: center;
-border: 0.313em outset green;
-border-radius: 0.625em;
+	text-decoration: none;
+	color: white;
+	background: -webkit-linear-gradient(top, silver, gray);
+	display: block;
+	height: 1.875em;
+	width: 45.454545454545%; /* body is container 500/1100 */
+	line-height: 1.875em;
+	text-align: center;
+	border: 0.313em outset green;
+	border-radius: 0.625em;
 } /* end initial link */
+
 h1.cta a:visited{
-opacity: 0.80;
+	opacity: 0.80;
 }
 
 h1.cta a:hover{
 border-color: orange;
 }
+
 h1.cta a:active{
-border-color: black;
+	border-color: black;
 }
 
 /*--------------------------- Footer Formatting -------------------------*/
@@ -306,6 +315,7 @@ footer{
 	background: -webkit-linear-gradient(top, #38b638, #184f20);
 	overflow: hidden;
 }
+
 footer p{
 	font-family: 'Share Tech Mono', Verdana, sans-serif;
 	margin: 0 auto;
@@ -317,295 +327,354 @@ footer p{
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media screen and (min-width: 768px) and (max-width: 959px) {
-		ul.nav li{
-		float: left;
-		width: 12.5%; /* use media query to adjust for responsiveness */
-		overflow: hidden; /* hides nav text */
+ul.nav li{
+	float: left;
+	width: 12.5%; /* use media query to adjust for responsiveness */
+	overflow: hidden; /* hides nav text */
+}
+
+aside{
+	display: none;
+}
+		
+p.introParagraph{
+	float: none;
+	width: 60%;
+	margin-left: 1em;
+}
+		
+p.resourcesParagraph{ 
+	float: none;
+	width: 60%;
+	margin-left: 1em;
+}
+
+p.craftingParagraph{
+	float: none;
+	width: 100%;
+	margin-left: 1em;
+}
+	
+p.toolsParagraph{
+	float: none;
+	width: 100%;
+	margin-left: 1em;
+}
+
+p.buildingStructuresParagraph{
+	float: none;
+	width: 100%;
+	margin-left: 1em;
+}
+
+p.gatheringFoodParagraph{
+	float: none;
+	width: 100%;
+	margin-left: 1em;
+}
+
+p.naturalStructuresParagraph{
+	float: none;
+	width: 100%;
+	margin-left: 1em;
 		}
-		aside{
-		display: none;
-		}
-		p.introParagraph{
-		float: none;
-		width: 60%;
-		margin-left: 1em;
-		}
-		p.resourcesParagraph{ 
-		float: none;
-		width: 60%;
-		margin-left: 1em;
-		}
-		p.craftingParagraph{
-		float: none;
-		width: 100%;
-		margin-left: 1em;
-		}
-		p.toolsParagraph{
-		float: none;
-		width: 100%;
-		margin-left: 1em;
-		}
-		p.buildingStructuresParagraph{
-		float: none;
-		width: 100%;
-		margin-left: 1em;
-		}
-		p.gatheringFoodParagraph{
-		float: none;
-		width: 100%;
-		margin-left: 1em;
-		}
-		p.naturalStructuresParagraph{
-		float: none;
-		width: 100%;
-		margin-left: 1em;
-		}
-		img.introImage{
-		width: 50%;
-		margin-left: 1em;
-		float: right;
-		clear: none;
-		}
-		img.resourcesImage{ 
-		width: 50%;
-		float: right;
-		margin-right: 1em;
-		clear: none;
-		}
-		img.craftingImage{
-		width: 50%;
-		float: right;
-		margin-right: 1em;
-		}
-		img.toolsImage{
-		width: 50%;
-		float: right;
-		margin-right: 1em;
-		}
-		img.buildingStructuresImage{
-		width: 50%;
-		float: right;
-		margin-right: 1em;
-		}
-		img.gatheringFoodImage{
-		width: 50%;
-		float: right;
-		margin-right: 1em;
-		}
-		img.naturalStructuresImage{
-		width: 50%;
-		float: right;
-		margin-right: 1em;
-		}
-		h1 {
-			clear: none;
-		}
-		ol.gallery li a{
-		width: 12.5%; /* as ol length decreases, so does the link size */
-		}
-		p.closing{
-		width: 75%;
-		clear: both;
-		}
-	}
+
+img.introImage{
+	width: 50%;
+	margin-left: 1em;
+	float: right;
+	clear: none;
+}
+
+img.resourcesImage{ 
+	width: 50%;
+	float: right;
+	margin-right: 1em;
+	clear: none;
+}
+
+img.craftingImage{
+	width: 50%;
+	float: right;
+	margin-right: 1em;
+}
+
+img.toolsImage{
+	width: 50%;
+	float: right;
+	margin-right: 1em;
+}
+
+img.buildingStructuresImage{
+	width: 50%;
+	float: right;
+	margin-right: 1em;
+}
+
+img.gatheringFoodImage{
+	width: 50%;
+	float: right;
+	margin-right: 1em;
+}
+
+img.naturalStructuresImage{
+	width: 50%;
+	float: right;
+	margin-right: 1em;
+}
+
+h1 {
+	clear: none;
+}
+
+ol.gallery li a{
+	width: 12.5%; /* as ol length decreases, so does the link size */
+}
+
+p.closing{
+	width: 75%;
+	clear: both;
+}
+}
 	
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 600px) and (max-width: 767px) {
-		ul.nav li{
-		float: left;
-		width: 12.5%; /* use media query to adjust for responsiveness */
-		overflow: hidden; /* hides nav text */
-		}
-		aside{
-		display: none;
-		}
-		p.introParagraph{
-		float: none;
-		width: 60%;
-		margin-left: 1em;
-		}
-		p.resourcesParagraph{ 
-		float: none;
-		width: 60%;
-		margin-left: 1em;
-		}
-		p.craftingParagraph{
-		float: none;
-		width: 100%;
-		margin-left: 1em;
-		}
-		p.toolsParagraph{
-		float: none;
-		width: 100%;
-		margin-left: 1em;
-		}
-		p.buildingStructuresParagraph{
-		float: none;
-		width: 100%;
-		margin-left: 1em;
-		}
-		p.gatheringFoodParagraph{
-		float: none;
-		width: 100%;
-		margin-left: 1em;
-		}
-		p.naturalStructuresParagraph{
-		float: none;
-		width: 100%;
-		margin-left: 1em;
-		}
-		img.introImage{
-		width: 50%;
-		margin-left: 1em;
-		float: right;
-		clear: none;
-		}
-		img.resourcesImage{ 
-		width: 50%;
-		float: right;
-		margin-right: 1em;
-		clear: none;
-		}
-		img.craftingImage{
-		width: 50%;
-		float: right;
-		margin-right: 1em;
-		}
-		img.toolsImage{
-		width: 50%;
-		float: right;
-		margin-right: 1em;
-		}
-		img.buildingStructuresImage{
-		width: 50%;
-		float: right;
-		margin-right: 1em;
-		}
-		img.gatheringFoodImage{
-		width: 50%;
-		float: right;
-		margin-right: 1em;
-		}
-		img.naturalStructuresImage{
-		width: 50%;
-		float: right;
-		margin-right: 1em;
-		}
-		h1 {
-			clear: none;
-		}
-		ol.gallery li a{
-		width: 15%; /* as ol length decreases, so does the link size */
-		}
-		p.closing{
-		width: 75%;
-		clear: both;
-		}
-	}
+
+ul.nav li{
+	float: left;
+	width: 12.5%; /* use media query to adjust for responsiveness */
+	overflow: hidden; /* hides nav text */
+}
+	
+aside{
+	display: none;
+}
+
+p.introParagraph{
+	float: none;
+	width: 60%;
+	margin-left: 1em;
+}
+
+p.resourcesParagraph{ 
+	float: none;
+	width: 60%;
+	margin-left: 1em;
+}
+
+p.craftingParagraph{
+	float: none;
+	width: 100%;
+	margin-left: 1em;
+}
+
+p.toolsParagraph{
+	float: none;
+	width: 100%;
+	margin-left: 1em;
+}
+
+p.buildingStructuresParagraph{
+	float: none;
+	width: 100%;
+	margin-left: 1em;
+}
+
+p.gatheringFoodParagraph{
+	float: none;
+	width: 100%;
+	margin-left: 1em;
+}
+
+p.naturalStructuresParagraph{
+	float: none;
+	width: 100%;
+	margin-left: 1em;
+}
+
+img.introImage{
+	width: 50%;
+	margin-left: 1em;
+	float: right;
+	clear: none;
+}
+
+img.resourcesImage{ 
+	width: 50%;
+	float: right;
+	margin-right: 1em;
+	clear: none;
+}
+		
+img.craftingImage{
+	width: 50%;
+	float: right;
+	margin-right: 1em;
+}
+
+img.toolsImage{
+	width: 50%;
+	float: right;
+	margin-right: 1em;
+}
+
+img.buildingStructuresImage{
+	width: 50%;
+	float: right;
+	margin-right: 1em;
+}
+
+img.gatheringFoodImage{
+	width: 50%;
+	float: right;
+	margin-right: 1em;
+}
+
+img.naturalStructuresImage{
+	width: 50%;
+	float: right;
+	margin-right: 1em;
+}
+		
+h1 {
+	clear: none;
+}
+
+ol.gallery li a{
+	width: 15%; /* as ol length decreases, so does the link size */
+}
+
+p.closing{
+	width: 75%;
+	clear: both;
+}
+}
 	
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 599px) {
-		#logo{
-		display: none;
-		}
-		ul.nav li{
-		float: none;
-		width: 100%; /* use media query to adjust for responsiveness */
-		overflow: hidden; /* hides nav text */
-		}
-		aside{
-		display: none;
-		}
-		p.introParagraph{
-		float: none;
-		width: 100%;
-		margin-left: 1em;
-		}
-		p.resourcesParagraph{ 
-		float: none;
-		width: 100%;
-		margin-left: 1em;
-		}
-		p.craftingParagraph{
-		float: none;
-		width: 100%;
-		margin-left: 1em;
-		}
-		p.toolsParagraph{
-		float: none;
-		width: 100%;
-		margin-left: 1em;
-		}
-		p.buildingStructuresParagraph{
-		float: none;
-		width: 100%;
-		margin-left: 1em;
-		}
-		p.gatheringFoodParagraph{
-		float: none;
-		width: 100%;
-		margin-left: 1em;
-		}
-		p.naturalStructuresParagraph{
-		float: none;
-		width: 100%;
-		margin-left: 1em;
-		}
-		img.introImage{
-		width: 90%;
-		margin-left: 1em;
-		float: none;
-		clear: none;
-		}
-		img.resourcesImage{ 
-		width: 90%;
-		float: none;
-		margin-right: 1em;
-		clear: none;
-		}
-		img.craftingImage{
-		width: 90%;
-		float: none;
-		margin-right: 1em;
-		clear: none;
-		}
-		img.toolsImage{
-		width: 90%;
-		float: none;
-		margin-right: 1em;
-		clear: none;
-		}
-		img.buildingStructuresImage{
-		width: 90%;
-		float: none;
-		margin-right: 1em;
-		}
-		img.gatheringFoodImage{
-		width: 90%;
-		float: none;
-		margin-right: 1em;
-		}
-		img.naturalStructuresImage{
-		width: 90%;
-		float: none;
-		margin-left: 1em;
-		}
-		h1.introHeading {
-		width: 100%;
-		}
-		ol.gallery{ /* Unordered list class */
-		width: 90%;
-		}
-		ol.gallery li a{
-		width: 25%; /* as ol length decreases, so does the link size */
-		}
-		h1.cta a{
-		width: 75%;
-		}
-		p.closing{
-		width: 100%;
-		clear: both;
-		}
+
+#logo{
+	display: none;
+}
+
+ul.nav li{
+	float: none;
+	width: 100%; /* use media query to adjust for responsiveness */
+	overflow: hidden; /* hides nav text */
+}
+
+aside{
+	display: none;
+}
+		
+p.introParagraph{
+	float: none;
+	width: 100%;
+	margin-left: 1em;
+}
+
+p.resourcesParagraph{ 
+	float: none;
+	width: 100%;
+	margin-left: 1em;
+}
+
+p.craftingParagraph{
+	float: none;
+	width: 100%;
+	margin-left: 1em;
+}
+
+p.toolsParagraph{
+	float: none;
+	width: 100%;
+	margin-left: 1em;
+}
+
+p.buildingStructuresParagraph{
+	float: none;
+	width: 100%;
+	margin-left: 1em;
+}
+
+p.gatheringFoodParagraph{
+	float: none;
+	width: 100%;
+	margin-left: 1em;
+}
+
+p.naturalStructuresParagraph{
+	float: none;
+	width: 100%;
+	margin-left: 1em;
+}
+
+img.introImage{
+	width: 90%;
+	margin-left: 1em;
+	float: none;
+	clear: none;
+}
+
+img.resourcesImage{ 
+	width: 90%;
+	float: none;
+	margin-right: 1em;
+	clear: none;
+}
+
+img.craftingImage{
+	width: 90%;
+	float: none;
+	margin-right: 1em;
+	clear: none;
+}
+
+img.toolsImage{
+	width: 90%;
+	float: none;
+	margin-right: 1em;
+	clear: none;
+}
+
+img.buildingStructuresImage{
+	width: 90%;
+	float: none;
+	margin-right: 1em;
+}
+
+img.gatheringFoodImage{
+	width: 90%;
+	float: none;
+	margin-right: 1em;
+}
+
+img.naturalStructuresImage{
+	width: 90%;
+	float: none;
+	margin-left: 1em;
+}
+
+h1.introHeading {
+	width: 100%;
+}
+
+ol.gallery{ /* Unordered list class */
+	width: 90%;
+}
+
+ol.gallery li a{
+	width: 25%; /* as ol length decreases, so does the link size */
+}
+
+h1.cta a{
+	width: 75%;
+}
+
+p.closing{
+	width: 100%;
+	clear: both;
+}
 		
 		section.monsters {
 		-webkit-column-count: 1;
