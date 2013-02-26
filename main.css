@@ -104,10 +104,6 @@ aside ol li a{
 	border: 0.313em outset green;	
 }
 
-aside ol li a:visited {
-	opacity: 0.80;
-}
-
 aside ol li a:hover {
 	border: outset orange;
 }	
@@ -263,10 +259,6 @@ ol.gallery li a{
 	
 }
 
-ol.gallery li a:visited{
-	opacity: 0.80;
-}
-
 ol.gallery li a:hover{
 	border: 0.313em outset orange;
 }
@@ -295,10 +287,6 @@ h1.cta a{
 	border: 0.313em outset green;
 	border-radius: 0.625em;
 } /* end initial link */
-
-h1.cta a:visited{
-	opacity: 0.80;
-}
 
 h1.cta a:hover{
 border-color: orange;
