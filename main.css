@@ -47,6 +47,10 @@ border: 0.313em outset green;
 border-radius: 0.625em;
 }
 
+ul.nav li a:visited{
+opacity: 0.90;
+}
+
 ul.nav li a:hover{
 border-color: orange;
 }
@@ -99,6 +103,10 @@ aside ol li a{
 	padding: 1.250em;
 	border: 0.313em outset green;
 	
+}
+
+aside ol li a:visited {
+	opacity: 0.90;
 }
 
 aside ol li a:hover {
@@ -250,6 +258,9 @@ ol.gallery li a{
 	overflow: hidden; /* will keep images from expanding beyond link border*/
 	
 }
+ol.gallery li a:visited{
+	opacity: 0.90;
+}
 ol.gallery li a:hover{
 	border: 0.313em outset orange;
 }
@@ -276,6 +287,10 @@ text-align: center;
 border: 0.313em outset green;
 border-radius: 0.625em;
 } /* end initial link */
+h1.cta a:visited{
+opacity: 0.90;
+}
+
 h1.cta a:hover{
 border-color: orange;
 }
