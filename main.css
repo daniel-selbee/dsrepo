@@ -307,6 +307,7 @@ footer{
 
 footer p{
 	font-family: 'Share Tech Mono', Verdana, sans-serif;
+	text-align: center;
 	margin: 0 auto;
 	padding-top: 0.625em;
 }
