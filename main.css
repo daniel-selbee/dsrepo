@@ -302,6 +302,7 @@ footer{
 	height: 3.125em;
 	background: -webkit-linear-gradient(top, #38b638, #184f20);
 	overflow: hidden;
+	opacity: 0.90;
 }
 
 footer p{
