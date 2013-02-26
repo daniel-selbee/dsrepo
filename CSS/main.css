@@ -289,7 +289,7 @@ h1.cta a{
 } /* end initial link */
 
 h1.cta a:hover{
-border-color: orange;
+border-color: red;
 }
 
 h1.cta a:active{
