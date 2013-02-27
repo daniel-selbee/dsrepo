@@ -238,8 +238,12 @@ table {
 	border: 0.313em outset green;
 	background: -webkit-linear-gradient(top, silver, gray);	
 }
-td {
+th {
 	font-style: bold;
+	padding: 0.625em;
+	border: 0.063em solid black;
+}
+td {
 	padding: 0.625em;
 	border: 0.063em solid black;
 }
