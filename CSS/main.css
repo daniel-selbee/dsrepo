@@ -465,6 +465,10 @@ table{
 	display: none;
 }
 
+h2.table{
+	display: none;
+}
+
 p.introParagraph{
 	float: none;
 	width: 60%;
