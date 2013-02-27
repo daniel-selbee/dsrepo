@@ -238,6 +238,10 @@ table {
 	border: 0.313em outset green;
 	background: -webkit-linear-gradient(top, silver, gray);	
 }
+tr {
+	padding: 0.625em;
+	border: 0.063em solid black;
+}
 	
 /*------------------------- Gallery Formatting------------------------*/
 
