@@ -243,11 +243,12 @@ th {
 	font-style: bold;
 	font-family: 'Share Tech Mono', Verdana, sans-serif;
 	padding: 0.625em;
-	border: 0.075em inset black;
+	border: 0.188em inset black;
 }
 td {
 	padding: 0.625em;
-	border: 0.075em inset black;
+	border: 0.188em inset black;
+	font-family: 'Roboto Condensed', Verdana, sans-serif;
 }
 	
 /*------------------------- Gallery Formatting------------------------*/
