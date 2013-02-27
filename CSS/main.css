@@ -249,6 +249,7 @@ td {
 	padding: 0.625em;
 	border: 0.188em inset black;
 	font-family: 'Roboto Condensed', Verdana, sans-serif;
+	text-align: center;
 }
 	
 /*------------------------- Gallery Formatting------------------------*/
