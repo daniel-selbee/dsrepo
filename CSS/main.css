@@ -461,6 +461,10 @@ aside{
 	display: none;
 }
 
+table{
+	display: none;
+}
+
 p.introParagraph{
 	float: none;
 	width: 60%;
