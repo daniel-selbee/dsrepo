@@ -231,6 +231,13 @@ img.naturalStructuresImage{
 	width: 50%;
 	float: right;
 }
+
+/*------------------------ Table Formatting --------------------------*/
+
+table {
+	border: 0.313em outset green;
+	background: -webkit-linear-gradient(top, silver, gray);	
+}
 	
 /*------------------------- Gallery Formatting------------------------*/
 
