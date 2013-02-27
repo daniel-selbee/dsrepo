@@ -237,6 +237,7 @@ img.naturalStructuresImage{
 table {
 	border: 0.313em outset green;
 	background: -webkit-linear-gradient(top, silver, gray);	
+	margin: 1em;
 }
 th {
 	font-style: bold;
