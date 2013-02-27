@@ -241,6 +241,7 @@ table {
 }
 th {
 	font-style: bold;
+	font-family: 'Share Tech Mono', Verdana, sans-serif;
 	padding: 0.625em;
 	border: 0.063em solid black;
 }
