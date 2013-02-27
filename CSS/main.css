@@ -254,6 +254,7 @@ td {
 ol.gallery{ /* Unordered list class */
 	list-style-type: none;
 	margin-left: 0.625em;
+	margin-top: 1em;
 	padding: 0;
 	width: 72.727272727273%; /* made the same width as the header */
 	float: left;
