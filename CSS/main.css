@@ -317,6 +317,14 @@ h1.cta a:active{
 	border-color: black;
 }
 
+/*--------------------------- Form Formatting ---------------------------*/
+
+form {
+	background: -webkit-linear-gradient(top, silver, gray);
+	border: 0.313em outset green;
+	font: white;
+}
+
 /*--------------------------- Footer Formatting -------------------------*/
 
 footer{
