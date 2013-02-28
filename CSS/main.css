@@ -330,6 +330,10 @@ form {
 	color: white;
 }
 
+form textarea{
+	width: 100%;
+}
+
 /*--------------------------- Footer Formatting -------------------------*/
 
 footer{
