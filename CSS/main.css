@@ -695,37 +695,43 @@ p.closing{
 	clear: both;
 }
 		
-		section.monsters {
-		-webkit-column-count: 1;
-		-moz-column-count: 1;
-		margin-left: 1em; 
-		float: none;
-		}
-		section.monsters img{
-		float: none;
-		width: 90%;
-		margin-left: 0.625em;
-		}
-		section.monsters p{
-		margin-left: 0.625em;
-		width: 100%;
-		}
-		section.animals {
-		-webkit-column-count: 1;
-		-moz-column-count: 1;
-		}
-		section.animals img{
-		width: 90%;
-		float: none;
-		margin-left: 1em;
-		}
-		section.animals p{
-		width: 100%;
-		margin-left: 1em;
-		}
-		footer {
-		width: 100%;
-		}
-	}
+section.monsters {
+	-webkit-column-count: 1;
+	-moz-column-count: 1;
+	margin-left: 1em; 
+	float: none;
+}
+
+section.monsters img{
+	float: none;
+	width: 90%;
+	margin-left: 0.625em;
+}
+	
+section.monsters p{
+	margin-left: 0.625em;
+	width: 100%;
+}
+	
+section.animals {
+	-webkit-column-count: 1;
+	-moz-column-count: 1;
+}
+
+section.animals img{
+	width: 90%;
+	float: none;
+	margin-left: 1em;
+}
+	
+section.animals p{
+	width: 100%;
+	margin-left: 1em;
+}
+
+footer {
+	width: 100%;
+}
+}
 
 
