@@ -357,7 +357,7 @@ textarea:focus{
 	font-size: 1em;
 	color: -webkit-linear-gradient(top, silver, gray);
 	border-radius: 0.625em;
-	border: 0.313 outset green;
+	border: 0.313em outset green;
 	background: -webkit-linear-gradient(top, #38b638, #184f20);
 }
 
