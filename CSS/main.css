@@ -323,8 +323,7 @@ form {
 	background: -webkit-linear-gradient(top, silver, gray);
 	border: 0.313em outset green;
 	font: white;
-	margin-bottom: 0.625em;
-	margin-top: 0.625em;
+	margin:  0.625em;
 	width: 50%;
 	font-family: 'Roboto Condensed', Verdana, sans-serif;
 	color: white;
