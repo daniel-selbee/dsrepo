@@ -325,6 +325,8 @@ form {
 	font: white;
 	margin-bottom: 0.625em;
 	width: 50%;
+	font-family: 'Roboto Condensed', Verdana, sans-serif;
+	color: white;
 }
 
 /*--------------------------- Footer Formatting -------------------------*/
