@@ -339,8 +339,12 @@ form select{
 	font-size: 1em;
 }
 
-form input{
+input{
 	
+}
+
+input:focus{
+	background: #7adfa9;
 }
 
 form submit{
