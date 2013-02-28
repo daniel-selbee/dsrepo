@@ -337,11 +337,16 @@ form select{
 	width: 25%;
 	font-family: 'Roboto Condensed', Verdana, sans-serif;
 	font-size: 1em;
-	color: white;
 }
 
 form input{
 	
+}
+
+form submit{
+	width: 25%;
+	font-family: 'Roboto Condensed', Verdana, sans-serif;
+	font-size: 1em;
 }
 
 /*--------------------------- Footer Formatting -------------------------*/
