@@ -323,6 +323,7 @@ form {
 	background: -webkit-linear-gradient(top, silver, gray);
 	border: 0.313em outset green;
 	font: white;
+	margin-bottom: 0.625em;
 }
 
 /*--------------------------- Footer Formatting -------------------------*/
