@@ -324,6 +324,7 @@ form {
 	border: 0.313em outset green;
 	font: white;
 	margin-bottom: 0.625em;
+	width: 50%;
 }
 
 /*--------------------------- Footer Formatting -------------------------*/
