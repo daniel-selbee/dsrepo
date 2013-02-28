@@ -359,6 +359,7 @@ textarea:focus{
 	border-radius: 0.625em;
 	border: 0.313em outset green;
 	background: -webkit-linear-gradient(top, #38b638, #184f20);
+	margin: 0.625em;
 }
 
 /*--------------------------- Footer Formatting -------------------------*/
