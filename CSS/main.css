@@ -333,6 +333,14 @@ form textarea{
 	width: 50%;
 }
 
+form select{
+	width: 25%;
+}
+
+form input{
+	
+}
+
 /*--------------------------- Footer Formatting -------------------------*/
 
 footer{
