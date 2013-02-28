@@ -340,7 +340,7 @@ form select{
 }
 
 input{
-	
+	margin-left: 0.625em;
 }
 
 input:focus{
