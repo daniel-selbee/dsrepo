@@ -343,7 +343,7 @@ form input{
 	
 }
 
-#submit{
+form submit{
 	width: 25%;
 	font-family: 'Roboto Condensed', Verdana, sans-serif;
 	font-size: 1em;
