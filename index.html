@@ -748,6 +748,7 @@
 			</article>
 			<!-- Form Start -->
 			<form>
+			
 			<form action="dropdownlist">
 			<select name="questionsubject"> <!-- dropdown list starts -->
 			<option value="selection">Select Subject</option>
@@ -761,10 +762,32 @@
 			<option value="naturalstructures">Natural Structures</option>
 			<option value="other">Other</option>
 			</select><br> <!-- dropdown list ends -->
+			
 			<div>
 			<label for="firstname">First Name</label>
 			<input type="text" name="firstname" id="firstname"/>
 			</div>
+			
+			<div>
+			<label for="lastname">Last Name</label>
+			<input type="text" name="lastname" id="lastname"/>
+			</div>
+			
+			<div>
+			<label for="email">Email</label>
+			<input type="text" name="email" id="email"/>
+			</div>
+			
+			<div>
+			<label for="question">Question</label>
+			<input type="text" name="question" id="question"/>
+			</div>
+			
+			<div>
+			<label for="message">Message</label>
+			<textarea rows="15" columns="50" name="message" id="message"></textarea>
+			</div>
+			
 			<form name="input" action="html_form_action.asp" method="get">
 			<input type="submit" name="submit">
 			</form>
