@@ -360,7 +360,7 @@ textarea:focus{
 	background: #c1ffde;
 }
 
-input[type=button]{
+input[type=submit]{
 	width: 25%;
 	font-family: 'Roboto Condensed', Verdana, sans-serif;
 	font-size: 1em;
