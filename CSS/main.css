@@ -340,7 +340,7 @@ label {
 	margin-left: 0.625em;
 }
 
-input{
+input[type=text]{
 	width: 50%;
 	inset 0 0 0.5em  rgba(0,0,0,0.30), 
 	0 0 1em rgba(0,0,0,0.130; 
