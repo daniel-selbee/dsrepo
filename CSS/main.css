@@ -338,7 +338,7 @@ form select{
 
 input{
 	width: 50%;
-	border: 0.313em inset rgba(0, 0, 0, 0.5);
+	border: 0.313em groove rgba(0, 0, 0, 0.5);
 }
 
 input:focus{
