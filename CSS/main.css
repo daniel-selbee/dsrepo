@@ -362,8 +362,8 @@ textarea:focus{
 	width: 25%;
 	font-family: 'Roboto Condensed', Verdana, sans-serif;
 	font-size: 1em;
+	font: white;
 	border-radius: 0.625em;
-	
 	margin: 0.625em;
 }
 
