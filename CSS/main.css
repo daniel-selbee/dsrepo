@@ -373,6 +373,8 @@ input[type=submit]{
 	text-shadow: 0.313em 0.313em 0.313em black;
 	border-radius: 0.625em;
 	border: 0.313em outset green;
+	background: -webkit-linear-gradient(top, silver, gray);
+	background: -moz-linear-gradient(top, silver, gray);
 	margin: 0.625em;
 }
 
