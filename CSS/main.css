@@ -341,6 +341,7 @@ form select{
 
 input{
 	margin-left: 0.625em;
+	border: 0.313em inset rgba(0, 0, 0, 0.5);
 }
 
 input:focus{
