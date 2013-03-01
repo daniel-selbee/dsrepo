@@ -363,6 +363,7 @@ input[type=submit]{
 	width: 25%;
 	font-family: 'Roboto Condensed', Verdana, sans-serif;
 	font-size: 1em;
+	color: white;
 	border-radius: 0.625em;
 	margin: 0.625em;
 }
