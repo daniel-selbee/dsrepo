@@ -340,7 +340,8 @@ form select{
 }
 
 input{
-	margin-left: 0.625em;
+	width: 35%;
+	margin: 0 auto;
 	border: 0.313em inset rgba(0, 0, 0, 0.5);
 }
 
@@ -356,7 +357,6 @@ textarea:focus{
 	width: 25%;
 	font-family: 'Roboto Condensed', Verdana, sans-serif;
 	font-size: 1em;
-	color: -webkit-linear-gradient(top, silver, gray);
 	border-radius: 0.625em;
 	border: 0.313em outset green;
 	background: -webkit-linear-gradient(top, #38b638, #184f20);
