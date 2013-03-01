@@ -365,6 +365,7 @@ input[type=submit]{
 	font-size: 1em;
 	color: white;
 	border-radius: 0.625em;
+	border: 0.313em outset green;
 	margin: 0.625em;
 }
 
