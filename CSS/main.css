@@ -336,7 +336,19 @@ form select{
 	margin: 0.625em;
 }
 
-#firstname, #lastname, #email, #question {
+#firstname {
+	margin-left: 0.625;
+}
+
+#lastname {
+	margin-left: 0.625;
+}
+
+#email {
+	margin-left: 0.625;
+}
+  
+#question {
 	margin-left: 0.625;
 }
 
