@@ -329,10 +329,6 @@ form {
 	color: white;
 }
 
-form textarea{
-	width: 50%;
-}
-
 form select{
 	width: 25%;
 	font-family: 'Roboto Condensed', Verdana, sans-serif;
@@ -342,12 +338,16 @@ form select{
 
 input{
 	width: 35%;
-	float: right;
+	position: relative 50%;
 	border: 0.313em inset rgba(0, 0, 0, 0.5);
 }
 
 input:focus{
 	background: #c1ffde;
+}
+
+form textarea{
+	width: 50%;
 }
 
 textarea:focus{
