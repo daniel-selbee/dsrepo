@@ -336,6 +336,10 @@ form select{
 	margin: 0.625em;
 }
 
+#firstname, #lastname, #email, #question {
+	margin-left: 0.625;
+}
+
 input{
 	width: 50%;
 	border: 0.313em groove rgba(0, 0, 0, 0.5);
