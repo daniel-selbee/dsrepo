@@ -343,7 +343,7 @@ label {
 input{
 	width: 50%;
 	border: 0.313em groove rgba(0, 0, 0, 0.5);
-	margin: 0.625em;
+	margin-right: 0;
 }
 
 input:focus{
