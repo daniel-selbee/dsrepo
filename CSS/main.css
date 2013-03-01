@@ -363,6 +363,10 @@ textarea:focus{
 	margin: 0.625em;
 }
 
+#submit a:hover{
+	border-color: orange;
+}
+
 /*--------------------------- Footer Formatting -------------------------*/
 
 footer{
