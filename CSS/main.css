@@ -342,7 +342,7 @@ form select{
 
 input{
 	width: 35%;
-	margin: 0 auto;
+	float: right;
 	border: 0.313em inset rgba(0, 0, 0, 0.5);
 }
 
