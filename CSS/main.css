@@ -340,7 +340,7 @@ label {
 	margin-left: 0.625em;
 }
 
-input[type=text]{
+input{
 	width: 50%;
 	-webkit-box-shadow: 
 	inset 0 0 0.5em  rgba(0,0,0,0.30), 
